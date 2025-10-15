@@ -16,7 +16,7 @@ const AboveHeader = () => {
                   <Link to="/">
                     <img
                       src="assets/img/logo/black-logo.png"
-                      alt="logo-img"
+                      alt="logo-img"   
                       style={{ height: "60px", width: "auto" }}
                     />
                   </Link>
