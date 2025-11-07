@@ -8,6 +8,7 @@ const AboveHeader = () => {
       </button>
 
       <div className="fix-area">
+
         <div className="offcanvas__info">
           <div className="offcanvas__wrapper">
             <div className="offcanvas__content">
@@ -75,8 +76,9 @@ const AboveHeader = () => {
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a href="#">
+
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </a> 
                   <a href="#">
                     <i className="fab fa-youtube"></i>
                   </a>
@@ -84,7 +86,7 @@ const AboveHeader = () => {
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </div>
-              </div>
+              </div> 
             </div>
           </div>
         </div>
@@ -93,5 +95,6 @@ const AboveHeader = () => {
     </>
   );
 };
+
 
 export default AboveHeader;

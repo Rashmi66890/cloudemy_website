@@ -2,8 +2,22 @@ import Header from "./Header.jsx";
 import Footer from "./Footer.jsx";
 import Body from "./Body.jsx";
 import AboveHeader from "./AboveHeader.jsx";
-
+import HeaderHome from "./HeaderHome.jsx";
+import { useEffect } from "react";
 const Home = () => {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      const preloader = document.getElementById("preloader");
+      if (preloader) {
+        preloader.style.opacity = "0";
+        preloader.style.visibility = "hidden";
+        preloader.style.transition = "opacity 0.5s ease";
+      }
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <>
       <div id="preloader" className="preloader">
@@ -23,7 +37,10 @@ const Home = () => {
               D
             </span>
             <span data-text-preloader="L" className="letters-loading">
-              L
+              E
+            </span>
+            <span data-text-preloader="L" className="letters-loading">
+              M
             </span>
             <span data-text-preloader="Y" className="letters-loading">
               Y
@@ -50,7 +67,7 @@ const Home = () => {
       </div>
 
       <AboveHeader />
-      <Header />
+      <HeaderHome />
       <Body />
       <Footer />
     </>

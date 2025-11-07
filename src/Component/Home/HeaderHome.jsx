@@ -1,23 +1,23 @@
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const HeaderHome = () => {
   return (
-    <header id="header-sticky" className="header-1 header-2">
-      <div className="container">
+    <header id="header-sticky" className="header-1 sticky">
+      <div className="container-fluid">
         <div className="mega-menu-wrapper">
-          <div className="header-main">
+          <div className="header-main style-1">
             <div className="logo">
               <Link to="/" className="header-logo">
                 <img src="assets/img/logo/black-logo.png" alt="logo-img" />
               </Link>
               <Link to="/" className="header-logo-2">
-                <img src="assets/img/logo/black-logo.png" alt="logo-img" /> 
-              </Link> 
+                <img src="assets/img/logo/black-logo.png" alt="logo-img" />
+              </Link>
             </div>
 
             <div className="mean__menu-wrapper">
               <div className="main-menu">
-                <nav id="mobile-menu" style={{ display: "block" }}>
+                <nav id="mobile-menu">
                   <ul>
                     <li className="has-dropdown active menu-thumb">
                       <Link to="/">Home</Link>
@@ -38,7 +38,7 @@ const Header = () => {
                     </li>
 
                     <li>
-                      <Link to="/portfolio">Portfolio </Link>
+                      <Link to="/portfolio">Portfolio</Link>
                     </li>
 
                     <li>
@@ -60,13 +60,13 @@ const Header = () => {
 
               <div className="header__hamburger d-xl-none my-auto">
                 <div className="sidebar__toggle">
-                  <div className="header-bar">
-                    <span></span>   
+                  <div className="header-bar style-1">
+                    <span></span>
                     <span></span>
                   </div>
                 </div>
               </div>
-            </div>    
+            </div>
           </div>
         </div>
       </div>
@@ -74,4 +74,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderHome;

@@ -956,7 +956,7 @@ span {
 
 .brand-wrapper {
   border-bottom: 1px solid rgba(204, 203, 209, 0.2392156863);
-  padding-bottom: 120px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 1199px) {
@@ -6597,7 +6597,7 @@ span {
 }
 
 .section-padding {
-  padding: 50px 0;
+  padding: 70px 0;
 }
 
 @media (max-width: 1199px) {
@@ -7341,3 +7341,8 @@ span {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.brand-image img
+{
+  width: 165px;
+}

@@ -1,6 +1,17 @@
 import { Link } from "react-router-dom";
 
 const Body = () => {
+  const brandImages = [
+    "/assets/img/home-1/brand/android.png",
+    "/assets/img/home-1/brand/react.png",
+    "/assets/img/home-1/brand/flutter.png",
+    "/assets/img/home-1/brand/node.png",
+    "/assets/img/home-1/brand/python.png",
+    "/assets/img/home-1/brand/dotnet.png",
+    "/assets/img/home-1/brand/ios.png",
+    "/assets/img/home-1/brand/html.png",
+  ];
+
   return (
     <>
       <section className="pp-hero-section pp-hero-1 fix">
@@ -73,117 +84,44 @@ const Body = () => {
           </div>
         </div>
       </section>
+
       <div className="pp-brand-section section-padding pb-0 fix">
         <div className="container custom-container-3">
           <div className="brand-wrapper style-2">
-            <div
-              className="brand-title wow fadeInUp"
-              data-wow-delay=".3s"
-              style={{
-                visibility: "visible",
-                animationDelay: "0.3s",
-                animationName: "fadeInUp",
-              }}
-            >
-              <h3>Millions of clients trust us.</h3>
+            <div className="brand-title wow fadeInUp" data-wow-delay=".3s">
+              <h3>Powering Innovation with Modern Tech</h3>
             </div>
-            <div className="swiper pp-brand-slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-              <div
-                className="swiper-wrapper"
-                id="swiper-wrapper-7faed03130cdd59c"
-                aria-live="off"
-                style={{
-                  transform: "translate3d(-2520px, 0px, 0px)",
-                  transitionDuration: "2000ms",
-                }}
-              >
-                <div
-                  className="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev"
-                  role="group"
-                  aria-label="5 / 5"
-                  data-swiper-slide-index="4"
-                  style={{ width: "320px", marginRight: "100px" }}
-                >
-                  <div className="brand-image text-center">
-                    <img src="assets/img/home-1/brand/05.png" alt="img" />
+
+            <div
+              className="swiper pp-brand-slider"
+              data-swiper='{
+              "loop": true,
+              "autoplay": { "delay": 2000, "disableOnInteraction": false },
+              "slidesPerView": 5,
+              "spaceBetween": 100, 
+              "breakpoints": {
+                "1200": {"slidesPerView": 5},
+                "992": {"slidesPerView": 4},
+                "768": {"slidesPerView": 3},
+                "576": {"slidesPerView": 2},
+                "0": {"slidesPerView": 1}
+              }
+            }'
+            >
+              <div className="swiper-wrapper">
+                {brandImages.map((src, i) => (
+                  <div className="swiper-slide" key={i}>
+                    <div className="brand-image text-center">
+                      <img src={src} alt={`brand-${i}`} />
+                    </div>
                   </div>
-                </div>
-                <div
-                  className="swiper-slide swiper-slide-duplicate-active"
-                  role="group"
-                  aria-label="1 / 5"
-                  data-swiper-slide-index="0"
-                  style={{ width: "320px", marginRight: "100px" }}
-                >
-                  <div className="brand-image text-center">
-                    <img src="assets/img/home-1/brand/01.png" alt="img" />
-                  </div>
-                </div>
-                <div
-                  className="swiper-slide"
-                  role="group"
-                  aria-label="2 / 5"
-                  data-swiper-slide-index="1"
-                  style={{ width: "320px", marginRight: "100px" }}
-                >
-                  <div className="brand-image text-center">
-                    <img src="assets/img/home-1/brand/02.png" alt="img" />
-                  </div>
-                </div>
-                <div
-                  className="swiper-slide"
-                  role="group"
-                  aria-label="3 / 5"
-                  data-swiper-slide-index="2"
-                  style={{ width: "320px", marginRight: "100px" }}
-                >
-                  <div className="brand-image text-center">
-                    <img src="assets/img/home-1/brand/03.png" alt="img" />
-                  </div>
-                </div>
-                <div
-                  className="swiper-slide"
-                  role="group"
-                  aria-label="4 / 5"
-                  data-swiper-slide-index="3"
-                  style={{ width: "320px", marginRight: "100px" }}
-                >
-                  <div className="brand-image text-center">
-                    <img src="assets/img/home-1/brand/04.png" alt="img" />
-                  </div>
-                </div>
-                <div
-                  className="swiper-slide swiper-slide-prev swiper-slide-duplicate-next"
-                  role="group"
-                  aria-label="5 / 5"
-                  data-swiper-slide-index="4"
-                  style={{ width: "320px", marginRight: "100px" }}
-                >
-                  <div className="brand-image text-center">
-                    <img src="assets/img/home-1/brand/05.png" alt="img" />
-                  </div>
-                </div>
-                <div
-                  className="swiper-slide swiper-slide-duplicate swiper-slide-active"
-                  role="group"
-                  aria-label="1 / 5"
-                  data-swiper-slide-index="0"
-                  style={{ width: "320px", marginRight: "100px" }}
-                >
-                  <div className="brand-image text-center">
-                    <img src="assets/img/home-1/brand/01.png" alt="img" />
-                  </div>
-                </div>
+                ))}
               </div>
-              <span
-                className="swiper-notification"
-                aria-live="assertive"
-                aria-atomic="true"
-              ></span>
             </div>
           </div>
         </div>
       </div>
+
       <section className="pp-offer-section section-padding fix section-bg">
         <div className="container">
           <div className="pp-section-title text-center">
@@ -366,7 +304,7 @@ const Body = () => {
           </div>
         </div>
       </section>
-      <section className="pp-how-work-section section-padding fix section-bg-2">
+      {/* <section className="pp-how-work-section section-padding fix section-bg-2">
         <div className="top-shape">
           <img src="assets/img/home-1/feature/bg-shape.png" alt="img" />
         </div>
@@ -454,7 +392,75 @@ const Body = () => {
             </div>
           </div>
         </div>
+      </section> */}
+      <section className="pp-how-work-section section-padding fix section-bg-2">
+        <div className="top-shape">
+          <img src="assets/img/home-1/feature/bg-shape.png" alt="img" />
+        </div>
+        <div className="line-shape">
+          <img src="assets/img/home-1/feature/line.png" alt="img" />
+        </div>
+        <div className="container">
+          <div className="pp-section-title text-center">
+            <span className="pp-sub-title wow fadeInUp">
+              HOW IT WORKS <span className="pp-style-2"></span>
+            </span>
+            <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
+              Turning Ideas Into Scalable Solutions
+            </h2>
+          </div>
+
+          <div className="row">
+            {/* STEP 1 */}
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".3s"
+            >
+              <div className="pp-how-work-items">
+                <h6>STEP-01</h6>
+                <h3>Understand & Strategize</h3>
+                <p>
+                  We start by understanding your business goals and technical
+                  needs, then create a clear development strategy aligned with
+                  your vision.
+                </p>
+              </div>
+            </div>
+
+            {/* STEP 2 */}
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".5s"
+            >
+              <div className="pp-how-work-items pp-style-2">
+                <h6>STEP-02</h6>
+                <h3>Design & Develop</h3>
+                <p>
+                  Our team builds modern, responsive, and scalable web or mobile
+                  applications using the latest frameworks and best coding
+                  practices.
+                </p>
+              </div>
+            </div>
+
+            {/* STEP 3 */}
+            <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".7s"
+            >
+              <div className="pp-how-work-items">
+                <h6>STEP-03</h6>
+                <h3>Test, Launch & Support</h3>
+                <p>
+                  After rigorous testing, we deploy your project smoothly and
+                  provide ongoing maintenance and support for long-term success.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
       <section className="pp-why-benefit-section section-padding fix section-bg">
         <div className="container">
           <div className="pp-section-title text-center">
@@ -661,35 +667,35 @@ const Body = () => {
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            Basic campaign builder
+                            Research-driven approach
                           </li>
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            1 user account
+                            Intuitive user flow
                           </li>
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            Up to 500 contacts
+                            Responsive layouts
                           </li>
                           <li className="pp-style-2">
                             <img
                               src="assets/img/home-1/icon/cheak-2.svg"
                               alt="img"
                             />
-                            Basic analytics
+                            Prototype testing
                           </li>
                           <li className="pp-style-2">
                             <img
                               src="assets/img/home-1/icon/cheak-2.svg"
                               alt="img"
                             />
-                            Email support
+                            Smooth onboarding
                           </li>
                         </ul>
                       </div>
@@ -712,42 +718,35 @@ const Body = () => {
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            All Starter features
+                            Modular architecture
                           </li>
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            Unlimited contacts
+                            Handles high load
                           </li>
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            A/B testing tools
+                            Cloud deployment
                           </li>
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            Automation workflows
+                            Optimized backend
                           </li>
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            Social media scheduling
-                          </li>
-                          <li>
-                            <img
-                              src="assets/img/home-1/icon/cheak.svg"
-                              alt="img"
-                            />
-                            Priority email support
+                            Continuous updates
                           </li>
                         </ul>
                       </div>
@@ -770,42 +769,35 @@ const Body = () => {
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            All Professional features
+                            Modern design
                           </li>
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            AI-powered recommendations
+                            Consistent branding
                           </li>
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak.svg"
                               alt="img"
                             />
-                            Maximum of 5 collaborators
+                            Smooth animations
                           </li>
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak-2.svg"
                               alt="img"
                             />
-                            Maximum of 5 collaborators
+                            Mobile friendly
                           </li>
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak-2.svg"
                               alt="img"
                             />
-                            Maximum of 5 collaborators
-                          </li>
-                          <li className="pp-style-2">
-                            <img
-                              src="assets/img/home-1/icon/cheak-2.svg"
-                              alt="img"
-                            />
-                            Maximum of 5 collaborators
+                            Engaging experience
                           </li>
                         </ul>
                       </div>
@@ -903,6 +895,7 @@ const Body = () => {
                             />
                             Unlimited contacts
                           </li>
+
                           <li>
                             <img
                               src="assets/img/home-1/icon/cheak.svg"
@@ -1014,7 +1007,7 @@ const Body = () => {
               <div className="col-lg-6">
                 <div className="about-image">
                   <img
-                    src="assets/img/home-1/about/about-1.jpg"
+                    src="assets/img/home-1/about/about-3.jpg"
                     alt="img"
                     className="wow img-custom-anim-left"
                     data-wow-duration="1.3s"
@@ -1024,10 +1017,12 @@ const Body = () => {
                       animationDuration: "1.3s",
                       animationDelay: "0.3s",
                       animationName: "img-anim-left",
+                      height: "360px",
+                      width: "500px",
                     }}
                   />
                   <div className="about-image-2">
-                    <img src="assets/img/home-1/about/about-2.jpg" alt="img" />
+                    <img src="assets/img/home-1/about/about-1.jpg" alt="img" />
                   </div>
                   <div className="about-shape">
                     <img src="assets/img/home-1/about/shape-1.png" alt="img" />
@@ -1109,215 +1104,474 @@ const Body = () => {
           </div>
         </div>
       </section>
-      <section className="pp-testimonial-section section-padding fix">
+
+      <section className="testimonial-section-3 fix section-padding section-bg">
         <div className="container">
-          <div className="pp-section-title-area">
-            <div className="pp-section-title">
-              <span
-                className="pp-sub-title wow fadeInUp"
-                style={{
-                  visibility: "visible",
-                  animationName: "fadeInUp",
-                }}
-              >
-                TESTIMONIALS
-              </span>
-              <h2
-                className="wow fadeInUp"
-                data-wow-delay=".3s"
-                style={{
-                  visibility: "visible",
-                  animationDelay: "0.3s",
-                  animationName: "fadeInUp",
-                }}
-              >
-                Success Stories from Our Users
-              </h2>
-            </div>
-            <div
-              className="pp-array-buttons wow fadeInUp"
-              data-wow-delay=".5s"
+          <div className="pp-section-title text-center">
+            <span
+              className="pp-sub-title pp-style-border  wow fadeInUp"
+              style={{ visibility: "visible", animationName: "fadeInUp" }}
+            >
+              Client Testimonials
+            </span>
+            <h2
+              className="wow fadeInUp"
+              data-wow-delay=".3s"
               style={{
                 visibility: "visible",
-                animationDelay: "0.5s",
-                animationName: "fadeInUp",
+                animationDelay: "0.3s",
+                animatioName: "fadeInUp",
               }}
             >
-              <button
-                className="array-prev"
-                tabindex="0"
-                aria-label="Next slide"
-                aria-controls="swiper-wrapper-a3aac8c91010778244"
-              >
-                <i className="fa-solid fa-arrow-left-long"></i>
-              </button>
-              <button
-                className="array-next"
-                tabindex="0"
-                aria-label="Previous slide"
-                aria-controls="swiper-wrapper-a3aac8c91010778244"
-              >
-                <i className="fa-solid fa-arrow-right-long"></i>
-              </button>
-            </div>
+              Latest Client Feedback
+            </h2>
           </div>
-          <div className="swiper pp-testimonial-slider swiper-initialized swiper-horizontal swiper-backface-hidden">
+          <div className="swiper pp-testimonial-slider-3 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
             <div
               className="swiper-wrapper"
-              id="swiper-wrapper-a3aac8c91010778244"
+              id="swiper-wrapper-8ed79f21f390e0a7"
               aria-live="off"
               style={{
-                transform: "translate3d(-2432px, 0px, 0px)",
-                transitionDuration: "2000ms",
+                transitionDuration: "3000ms",
+                transform: "translate3d(-1893.33px, 0px, 0px)",
               }}
             >
               <div
                 className="swiper-slide swiper-slide-duplicate"
-                role="group"
-                aria-label="1 / 2"
                 data-swiper-slide-index="0"
-                style={{ width: "508px", marginRight: "100px" }}
+                role="group"
+                aria-label="1 / 3"
+                style={{ width: "358.667px", marginRight: "20px" }}
               >
-                <div className="pp-testimonial-card">
+                <div className="pp-testimonial-box-items-3">
+                  <div className="pngwing-shape">
+                    <img
+                      src="assets/img/home-3/testimonial/pngwing-shape.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div className="star">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-regular fa-star"></i>
+                  </div>
                   <p>
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer fermentum, turpis id bibendum efficitur, arcu nunc
-                    pellentesque arcu, nec condimentum eros erat nec orci.
-                    Maecenas pretium.”
+                    it's a new way to earn. The app makes it easy for small
+                    stores to earn commission on everyday bill payments like
+                    electricity, mobile recharges, DTH and more. It’s simple to
+                    use, and signup takes only a moment."
                   </p>
-                  <div className="pp-client-info-item">
-                    <div className="pp-client-image">
-                      <img
-                        src="assets/img/home-1/testimonial/client-1.png"
-                        alt="img"
-                      />
+                  <div className="client-info">
+                    <div
+                      className="client-img bg-cover"
+                      style={{
+                        backgroundImage:
+                          "url('/assets/img/home-3/testimonial/client-3.jpg')",
+                      }}
+                    ></div>
+                    <div className="content">
+                      <h4>Aditya Awaze</h4>
+                      <span>BillNest</span>
                     </div>
-                    <div className="pp-content">
-                      <h5>Kristin Watson</h5>
-                      <span>Digital Strategist at Nova Agency</span>
+                    <div className="icon">
+                      <i className="fa-solid fa-quote-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="swiper-slide swiper-slide-duplicate"
+                data-swiper-slide-index="1"
+                role="group"
+                aria-label="2 / 3"
+                style={{ width: "358.667px", marginRight: "20px" }}
+              >
+                <div className="pp-testimonial-box-items-3">
+                  <div className="pngwing-shape">
+                    <img
+                      src="assets/img/home-3/testimonial/pngwing-shape.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div className="star">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                  </div>
+                  <p>
+                    Great work! We reviewed the app, and everything looks
+                    excellent. The app loads quickly, navigation is smooth, and
+                    overall performance is impressive. Thanks a lot for the
+                    effort — we’re really happy with the results!
+                  </p>
+                  <div className="client-info">
+                    <div
+                      className="client-img bg-cover"
+                      style={{
+                        backgroundImage:
+                          "url('/assets/img/home-3/testimonial/client-4.jpg')",
+                      }}
+                    ></div>
+                    <div className="content">
+                      <h4>Kajal Jain</h4>
+                      <span>BillNest</span>
+                    </div>
+                    <div className="icon">
+                      <i className="fa-solid fa-quote-right"></i>
                     </div>
                   </div>
                 </div>
               </div>
               <div
                 className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                data-swiper-slide-index="2"
                 role="group"
-                aria-label="2 / 2"
-                data-swiper-slide-index="1"
-                style={{ width: "508px", marginRight: "100px" }}
+                aria-label="3 / 3"
+                style={{ width: "358.667px", marginRight: "20px" }}
               >
-                <div className="pp-testimonial-card">
+                <div className="pp-testimonial-box-items-3">
+                  <div className="pngwing-shape">
+                    <img
+                      src="assets/img/home-3/testimonial/pngwing-shape.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div className="star">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                  </div>
                   <p>
-                    “Mauris vehicula iaculis turpis, vel luctus lacus dapibus
-                    rhoncus. Nullam dignissim eros ut elit luctus, a ullamcorper
-                    risus tristique. Donec imperdiet elit at mi commodo, id
-                    consequat diam venenatis.”
+                    Outstanding work by the team! The website not only looks
+                    great but also performs exceptionally well. The product
+                    listing and checkout experience are seamless, and our
+                    customers have already noticed the improvement.
                   </p>
-                  <div className="pp-client-info-item">
-                    <div className="pp-client-image">
-                      <img
-                        src="assets/img/home-1/testimonial/client-2.png"
-                        alt="img"
-                      />
+                  <div className="client-info">
+                    <div
+                      className="client-img bg-cover"
+                      style={{
+                        backgroundImage:
+                          "url('/assets/img/home-3/testimonial/client-5.jpg')",
+                      }}
+                    ></div>
+                    <div className="content">
+                      <h4>Abhishek Verma</h4>
+                      <span>Saz-Cars</span>
                     </div>
-                    <div className="pp-testimonial-content">
-                      <h5>Guy Hawkins</h5>
-                      <span>Marketing Manager at GrowFast Inc.</span>
+                    <div className="icon">
+                      <i className="fa-solid fa-quote-right"></i>
                     </div>
                   </div>
                 </div>
               </div>
               <div
                 className="swiper-slide swiper-slide-duplicate-active"
-                role="group"
-                aria-label="1 / 2"
                 data-swiper-slide-index="0"
-                style={{ width: "508px", marginRight: "100px" }}
+                role="group"
+                aria-label="1 / 3"
+                style={{ width: "358.667px", marginRight: "20px" }}
               >
-                <div className="pp-testimonial-card">
+                <div className="pp-testimonial-box-items-3">
+                  <div className="pngwing-shape">
+                    <img
+                      src="assets/img/home-3/testimonial/pngwing-shape.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div className="star">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                  </div>
                   <p>
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer fermentum, turpis id bibendum efficitur, arcu nunc
-                    pellentesque arcu, nec condimentum eros erat nec orci.
-                    Maecenas pretium.”
+                    it's a new way to earn. The app makes it easy for small
+                    stores to earn commission on everyday bill payments like
+                    electricity, mobile recharges, DTH and more. It’s simple to
+                    use, and signup takes only a moment."
                   </p>
-                  <div className="pp-client-info-item">
-                    <div className="pp-client-image">
-                      <img
-                        src="assets/img/home-1/testimonial/client-1.png"
-                        alt="img"
-                      />
+                  <div className="client-info">
+                    <div
+                      className="client-img bg-cover"
+                      style={{
+                        backgroundImage:
+                          "url('/assets/img/home-3/testimonial/client-3.jpg')",
+                      }}
+                    ></div>
+                    <div className="content">
+                      <h4>Aditya Awaze</h4>
+                      <span>BillNest</span>
                     </div>
-                    <div className="pp-content">
-                      <h5>Kristin Watson</h5>
-                      <span>Digital Strategist at Nova Agency</span>
+                    <div className="icon">
+                      <i className="fa-solid fa-quote-right"></i>
                     </div>
                   </div>
                 </div>
               </div>
               <div
-                className="swiper-slide swiper-slide-prev swiper-slide-duplicate-next"
-                role="group"
-                aria-label="2 / 2"
+                className="swiper-slide swiper-slide-duplicate-next"
                 data-swiper-slide-index="1"
-                style={{ width: "508px", marginRight: "100px" }}
+                role="group"
+                aria-label="2 / 3"
+                style={{ width: "358.667px", marginRight: "20px" }}
               >
-                <div className="pp-testimonial-card">
+                <div className="pp-testimonial-box-items-3">
+                  <div className="pngwing-shape">
+                    <img
+                      src="assets/img/home-3/testimonial/pngwing-shape.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div className="star">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                  </div>
                   <p>
-                    “Mauris vehicula iaculis turpis, vel luctus lacus dapibus
-                    rhoncus. Nullam dignissim eros ut elit luctus, a ullamcorper
-                    risus tristique. Donec imperdiet elit at mi commodo, id
-                    consequat diam venenatis.”
+                    Great work! We reviewed the app, and everything looks
+                    excellent. The app loads quickly, navigation is smooth, and
+                    overall performance is impressive. Thanks a lot for the
+                    effort — we’re really happy with the results!
                   </p>
-                  <div className="pp-client-info-item">
-                    <div className="pp-client-image">
-                      <img
-                        src="assets/img/home-1/testimonial/client-2.png"
-                        alt="img"
-                      />
+                  <div className="client-info">
+                    <div
+                      className="client-img bg-cover"
+                      style={{
+                        backgroundImage:
+                          "url('/assets/img/home-3/testimonial/client-4.jpg')",
+                      }}
+                    ></div>
+                    <div className="content">
+                      <h4>Kajal Jain</h4>
+                      <span>BillNest</span>
                     </div>
-                    <div className="pp-testimonial-content">
-                      <h5>Guy Hawkins</h5>
-                      <span>Marketing Manager at GrowFast Inc.</span>
+                    <div className="icon">
+                      <i className="fa-solid fa-quote-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="swiper-slide swiper-slide-prev"
+                data-swiper-slide-index="2"
+                role="group"
+                aria-label="3 / 3"
+                style={{ width: "358.667px", marginRight: "20px" }}
+              >
+                <div className="pp-testimonial-box-items-3">
+                  <div className="pngwing-shape">
+                    <img
+                      src="assets/img/home-3/testimonial/pngwing-shape.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div className="star">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                  </div>
+                  <p>
+                    Outstanding work by the team! The website not only looks
+                    great but also performs exceptionally well. The product
+                    listing and checkout experience are seamless, and our
+                    customers have already noticed the improvement.
+                  </p>
+                  <div className="client-info">
+                    <div
+                      className="client-img bg-cover"
+                      style={{
+                        backgroundImage:
+                          "url('/assets/img/home-3/testimonial/client-5.jpg')",
+                      }}
+                    ></div>
+                    <div className="content">
+                      <h4>Abhishek Verma</h4>
+                      <span>Saz-Cars</span>
+                    </div>
+                    <div className="icon">
+                      <i className="fa-solid fa-quote-right"></i>
                     </div>
                   </div>
                 </div>
               </div>
               <div
                 className="swiper-slide swiper-slide-duplicate swiper-slide-active"
-                role="group"
-                aria-label="1 / 2"
                 data-swiper-slide-index="0"
-                style={{ width: "508px", marginRight: "100px" }}
+                role="group"
+                aria-label="1 / 3"
+                style={{ width: "358.667px", marginRight: "20px" }}
               >
-                <div className="pp-testimonial-card">
+                <div className="pp-testimonial-box-items-3">
+                  <div className="pngwing-shape">
+                    <img
+                      src="assets/img/home-3/testimonial/pngwing-shape.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div className="star">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                  </div>
                   <p>
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer fermentum, turpis id bibendum efficitur, arcu nunc
-                    pellentesque arcu, nec condimentum eros erat nec orci.
-                    Maecenas pretium.”
+                    it's a new way to earn. The app makes it easy for small
+                    stores to earn commission on everyday bill payments like
+                    electricity, mobile recharges, DTH and more. It’s simple to
+                    use, and signup takes only a moment."
                   </p>
-                  <div className="pp-client-info-item">
-                    <div className="pp-client-image">
-                      <img
-                        src="assets/img/home-1/testimonial/client-1.png"
-                        alt="img"
-                      />
+                  <div className="client-info">
+                    <div
+                      className="client-img bg-cover"
+                      style={{
+                        backgroundImage:
+                          "url('/assets/img/home-3/testimonial/client-3.jpg')",
+                      }}
+                    ></div>
+                    <div className="content">
+                      <h4>Aditya Awaze</h4>
+
+                      <span>BillNest</span>
                     </div>
-                    <div className="pp-content">
-                      <h5>Kristin Watson</h5>
-                      <span>Digital Strategist at Nova Agency</span>
+                    <div className="icon">
+                      <i className="fa-solid fa-quote-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="swiper-slide swiper-slide-duplicate swiper-slide-next"
+                data-swiper-slide-index="1"
+                role="group"
+                aria-label="2 / 3"
+                style={{ width: "358.667px", marginRight: "20px" }}
+              >
+                <div className="pp-testimonial-box-items-3">
+                  <div className="pngwing-shape">
+                    <img
+                      src="assets/img/home-3/testimonial/pngwing-shape.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div className="star">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                  </div>
+                  <p>
+                    Great work! We reviewed the app, and everything looks
+                    excellent. The app loads quickly, navigation is smooth, and
+                    overall performance is impressive. Thanks a lot for the
+                    effort — we’re really happy with the results!
+                  </p>
+                  <div className="client-info">
+                    <div
+                      className="client-img bg-cover"
+                      style={{
+                        backgroundImage:
+                          "url('/assets/img/home-3/testimonial/client-4.jpg')",
+                      }}
+                    ></div>
+                    <div className="content">
+                      <h4>Kajal Jain</h4>
+                      <span>BillNest</span>
+                    </div>
+                    <div className="icon">
+                      <i className="fa-solid fa-quote-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                data-swiper-slide-index="2"
+                role="group"
+                aria-label="3 / 3"
+                style={{ width: "358.667px", marginRight: "20px" }}
+              >
+                <div className="pp-testimonial-box-items-3">
+                  <div className="pngwing-shape">
+                    <img
+                      src="assets/img/home-3/testimonial/pngwing-shape.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div className="star">
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                    <i className="fa-solid fa-star"></i>
+                  </div>
+                  <p>
+                    Outstanding work by the team! The website not only looks
+                    great but also performs exceptionally well. The product
+                    listing and checkout experience are seamless, and our
+                    customers have already noticed the improvement.
+                  </p>
+                  <div className="client-info">
+                    <div
+                      className="client-img bg-cover"
+                      style={{
+                        backgroundImage:
+                          "url('/assets/img/home-3/testimonial/client-5.jpg')",
+                      }}
+                    ></div>
+                    <div className="content">
+                      <h4>Abhishek Verma</h4>
+                      <span>Saz-Cars</span>
+                    </div>
+                    <div className="icon">
+                      <i className="fa-solid fa-quote-right"></i>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div className="swiper-dot-3 mt-5">
+              <div className="dot swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                <span
+                  className="swiper-pagination-bullet swiper-pagination-bullet-active"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Go to slide 1"
+                  aria-current="true"
+                ></span>
+                <span
+                  className="swiper-pagination-bullet"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Go to slide 2"
+                ></span>
+                <span
+                  className="swiper-pagination-bullet"
+                  tabindex="0"
+                  role="button"
+                  aria-label="Go to slide 3"
+                ></span>
+              </div>
+            </div>
+            <span
+              className="swiper-notification"
+              aria-live="assertive"
+              aria-atomic="true"
+            ></span>
           </div>
-          <span
-            className="swiper-notification"
-            aria-live="assertive"
-            aria-atomic="true"
-          ></span>
         </div>
       </section>
       <section className="pp-news-section-2 section-padding fix">
@@ -1453,7 +1707,7 @@ const Body = () => {
               <div className="col-lg-6">
                 <div className="pp-cta-image">
                   <img
-                    src="assets/img/home-1/cta/cta-1.jpg"
+                    src="assets/img/home-1/cta/ctaa.jpg"
                     alt="img"
                     className="wow img-custom-anim-top"
                     data-wow-duration="1.3s"
@@ -1465,7 +1719,7 @@ const Body = () => {
                       animationName: "img-anim-top",
                     }}
                   />
-                  <div className="pp-cta-image-2">
+                  {/* <div className="pp-cta-image-2">
                     <img
                       src="assets/img/home-1/cta/cta-2.jpg"
                       alt="img"
@@ -1479,7 +1733,7 @@ const Body = () => {
                         animationName: "img-anim-right",
                       }}
                     />
-                  </div>
+                  </div> */}
                   <div className="pp-shape float-bob-y">
                     <img src="assets/img/home-1/cta/shape-1.jpg" alt="img" />
                   </div>
@@ -1499,7 +1753,7 @@ const Body = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    Want Marketing That Works for Your App?
+                    Ready to build your next big idea?
                   </h2>
                   <p
                     className="wow fadeInUp"
@@ -1510,9 +1764,10 @@ const Body = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    In vestibulum dui a odio pharetra, nec accumsan sapien
-                    consectetur. Pellentesque magna risus, volutpat a vestibulum
-                    ut, tempus et quam.
+                    From concept to launch, we help you turn your vision into a
+                    powerful digital product. Whether it’s a mobile app,
+                    website, or custom platform — our team delivers fast,
+                    reliable, and scalable solutions tailored to your goals.
                   </p>
                   <div className="pp-cta-button">
                     <Link
@@ -1525,7 +1780,7 @@ const Body = () => {
                         animationName: "fadeInUp",
                       }}
                     >
-                      Get Started
+                      Let’s Get Started
                       <i className="fa-solid fa-arrow-right-long"></i>
                     </Link>
                   </div>
