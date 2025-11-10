@@ -143,32 +143,20 @@ const ServiceDetail = () => {
                     <div className="pp-service-details-content">
                       <h3>App Development </h3>
                       <p className="mb-4">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        At Cloudemy, we craft high-quality, performance-driven
+                        mobile applications that bring your ideas to life. Our
+                        team of expert developers, designers, and strategists
+                        work together to deliver apps that are fast, secure, and
+                        visually stunning — helping you connect better with your
+                        customers and grow your business.
                       </p>
-                      <p className="mb-4">
-                        pellentesque vulputate malesuada dictumst fames interdum
-                        cursus an te tellus porta ullamcorper accumsan non eu
-                        adipiscing integer venenatis sagittis arcu curae finibus
-                        ridi culus aliquam velit lobortis senectus vitae
-                        sollicitudin sit consectetuer ultricies rutrum
-                        parturient pede nisi nascetur habitant netus quisque
-                        elementum inceptos nam felis penatibus feugiat
-                      </p>
-                      <h3>What We Provide</h3>
+
+                      <h3>Our Expertise</h3>
                       <p className="mb-5">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        We specialize in building custom mobile solutions
+                        tailored to your unique business needs — whether you’re
+                        a startup looking to launch your first app or an
+                        enterprise aiming to optimize digital operations.
                       </p>
                       <div className="pp-thumb">
                         <img
@@ -176,181 +164,65 @@ const ServiceDetail = () => {
                           alt="img"
                         />
                       </div>
-                      <h3>The Challange</h3>
-                      <p>
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
-                      </p>
+                      <h3>What We Offer</h3>
+
                       <div className="pp-details-list-items">
                         <ul className="pp-details-list">
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Various
-                            analysis options.
+                            <i className="fa-solid fa-circle-check"></i> Custom
+                            App Development – End-to-end mobile app solutions
+                            built around your goal.
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
-                          </li>
-                        </ul>
-                        <ul className="pp-details-list">
-                          <li>
-                            <i className="fa-solid fa-circle-check"></i>Page Load
-                            (time, size, number of requests).
+                            <i className="fa-solid fa-circle-check"></i>
+                            Cross-Platform Development (Flutter/React) – One
+                            powerful codebase for both Android & iOS.
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
+                            <i className="fa-solid fa-circle-check"></i> UI/UX
+                            Design – Modern, intuitive, and engaging user
+                            interfaces.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i> Backend
+                            & API Integration – Secure, scalable, and
+                            high-performance architecture.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Maintenance & Support – Continuous improvements,
+                            updates, and technical assistance.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            App Store Deployment – Hassle-free publishing and
+                            optimization for App Store & Play Store.
                           </li>
                         </ul>
                       </div>
-                    </div>
-                    <div className="pp-faq-wrapper mt-5">
-                      <div className="faq-accordion-items">
-                        <div className="faq-accordion">
-                          <div className="accordion" id="accordion">
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".3s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.3s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq1"
-                                  aria-expanded="true"
-                                  aria-controls="faq1"
-                                >
-                                  Why Is SEO Important For Small Business?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq1"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".5s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.5s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq2"
-                                  aria-expanded="false"
-                                  aria-controls="faq2"
-                                >
-                                  How do I choose the best SEO Agency?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq2"
-                                className="accordion-collapse show"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq3"
-                                  aria-expanded="false"
-                                  aria-controls="faq3"
-                                >
-                                  Better Security And Faster Server?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq3"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-0 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq4"
-                                  aria-expanded="false"
-                                  aria-controls="faq4"
-                                >
-                                  Deployment Within Few Minutes
-                                </button>
-                              </h5>
-                              <div
-                                id="faq4"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+
+                      <h3 className="whyChooseUs">Why Choose Us</h3>
+
+                      <div className="pp-details-list-items">
+                        <ul className="pp-details-list">
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Scalable, secure, and future-ready apps.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            On-time delivery with transparent communication.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i> Focus
+                            on performance, design, and user satisfaction.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Complete development lifecycle — from idea to
+                            launch.
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </>
@@ -360,32 +232,27 @@ const ServiceDetail = () => {
                     <div className="pp-service-details-content">
                       <h3>Web Development</h3>
                       <p className="mb-4">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        At Cloudemy, we build fast, secure, and visually
+                        stunning websites that help businesses grow in the
+                        digital world. Our web development solutions are
+                        designed to create impactful online experiences that
+                        convert visitors into loyal customers. Whether you need
+                        a simple business website, a custom web portal, or a
+                        complete eCommerce platform — we deliver excellence at
+                        every step.
                       </p>
-                      <p className="mb-4">
-                        pellentesque vulputate malesuada dictumst fames interdum
-                        cursus an te tellus porta ullamcorper accumsan non eu
-                        adipiscing integer venenatis sagittis arcu curae finibus
-                        ridi culus aliquam velit lobortis senectus vitae
-                        sollicitudin sit consectetuer ultricies rutrum
-                        parturient pede nisi nascetur habitant netus quisque
-                        elementum inceptos nam felis penatibus feugiat
-                      </p>
-                      <h3>What We Provide</h3>
+
+                      <h3>Our Approach</h3>
                       <p className="mb-5">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        We believe that a great website is more than just good
+                        design — it’s a powerful business tool.Our development
+                        process begins with understanding your brand, audience,
+                        and goals.Based on that, we plan and design a website
+                        that is not only visually appealing but also technically
+                        strong and performance-optimized. Every line of code we
+                        write follows modern web standards and best practices to
+                        ensure your site loads fast, stays secure, and performs
+                        seamlessly across all devices.
                       </p>
                       <div className="pp-thumb">
                         <img
@@ -393,181 +260,72 @@ const ServiceDetail = () => {
                           alt="img"
                         />
                       </div>
-                      <h3>The Challange</h3>
-                      <p>
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
-                      </p>
+                      <h3>What We Offer</h3>
+
                       <div className="pp-details-list-items">
                         <ul className="pp-details-list">
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Various
-                            analysis options.
+                            <i className="fa-solid fa-circle-check"></i> Custom
+                            Website Development – Fully tailored websites built
+                            around your unique business goals.
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
-                          </li>
-                        </ul>
-                        <ul className="pp-details-list">
-                          <li>
-                            <i className="fa-solid fa-circle-check"></i>Page Load
-                            (time, size, number of requests).
+                            <i className="fa-solid fa-circle-check"></i>
+                            E-Commerce Development – Scalable online stores with
+                            secure payment gateways and easy management.
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
+                            <i className="fa-solid fa-circle-check"></i>
+                            Corporate & Portfolio Websites – Professional web
+                            presence that reflects your brand identity.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i> CMS
+                            Development (WordPress / Headless CMS) – Easily
+                            manage and update content with a powerful backend.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i> Web
+                            Application Development – High-performance,
+                            interactive web apps using modern frameworks.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i> API
+                            Integration & Automation – Streamlined workflows
+                            through third-party API integration.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            SEO-Friendly Development – Optimized architecture
+                            and structure for better search visibility.
                           </li>
                         </ul>
                       </div>
-                    </div>
-                    <div className="pp-faq-wrapper mt-5">
-                      <div className="faq-accordion-items">
-                        <div className="faq-accordion">
-                          <div className="accordion" id="accordion">
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".3s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.3s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq1"
-                                  aria-expanded="true"
-                                  aria-controls="faq1"
-                                >
-                                  Why Is SEO Important For Small Business?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq1"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".5s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.5s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq2"
-                                  aria-expanded="false"
-                                  aria-controls="faq2"
-                                >
-                                  How do I choose the best SEO Agency?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq2"
-                                className="accordion-collapse show"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq3"
-                                  aria-expanded="false"
-                                  aria-controls="faq3"
-                                >
-                                  Better Security And Faster Server?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq3"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-0 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq4"
-                                  aria-expanded="false"
-                                  aria-controls="faq4"
-                                >
-                                  Deployment Within Few Minutes
-                                </button>
-                              </h5>
-                              <div
-                                id="faq4"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <h3 className="whyChooseUs">Why Choose Us</h3>
+
+                      <div className="pp-details-list-items">
+                        <ul className="pp-details-list">
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Custom-Tailored Solutions : Every website is
+                            uniquely crafted to match your business needs.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            User-Centric Design: Clean, engaging, and
+                            conversion-driven UI/UX.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            End-to-End Service: From concept and design to
+                            hosting, deployment, and maintenance.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Transparent Communication: Regular updates, progress
+                            tracking, and on-time delivery.
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </>
@@ -577,32 +335,29 @@ const ServiceDetail = () => {
                     <div className="pp-service-details-content">
                       <h3>API & Backend Solution</h3>
                       <p className="mb-4">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        Behind every powerful app or website lies a strong and
+                        reliable backend system. At Cloudemy, we specialize in
+                        developing secure, scalable, and high-performance
+                        backend architectures that power modern digital
+                        products. Our API and backend development services
+                        ensure your mobile or web application runs smoothly,
+                        handles complex data, and scales effortlessly as your
+                        business grows.
                       </p>
-                      <p className="mb-4">
-                        pellentesque vulputate malesuada dictumst fames interdum
-                        cursus an te tellus porta ullamcorper accumsan non eu
-                        adipiscing integer venenatis sagittis arcu curae finibus
-                        ridi culus aliquam velit lobortis senectus vitae
-                        sollicitudin sit consectetuer ultricies rutrum
-                        parturient pede nisi nascetur habitant netus quisque
-                        elementum inceptos nam felis penatibus feugiat
-                      </p>
-                      <h3>What We Provide</h3>
+
+                      <h3>What We Offer</h3>
                       <p className="mb-5">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        We design and develop robust RESTful and GraphQL. APIs
+                        that connect your frontend to backend
+                        seamlessly.Scalable and modular architecture built for
+                        performance and growth.Structured, high-performing
+                        databases using MySQL, PostgreSQL, MongoDB, or
+                        Firebase.Seamless integration with payment gateways,
+                        CRMs social platforms, and other third-party tools.
+                        Scalable hosting using AWS, Google Cloud, or Azure for
+                        smooth operations. Implementation of secure
+                        authentication systems (OAuth, JWT) and encryption
+                        protocols.
                       </p>
                       <div className="pp-thumb">
                         <img
@@ -610,181 +365,30 @@ const ServiceDetail = () => {
                           alt="img"
                         />
                       </div>
-                      <h3>The Challange</h3>
-                      <p>
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
-                      </p>
+                      <h3>Why Choose Us</h3>
+
                       <div className="pp-details-list-items">
                         <ul className="pp-details-list">
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Various
-                            analysis options.
+                            <i className="fa-solid fa-circle-check"></i>Scalable
+                            and Reliable Systems: Designed to handle large user
+                            bases and complex data flows.
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
+                            <i className="fa-solid fa-circle-check"></i> Clean
+                            Architecture: Maintainable, testable, and modular
+                            code structure.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>Strong
+                            Security: Data protection and access control
+                            implemented at every level.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>Advance
+                            Data analysis operation.
                           </li>
                         </ul>
-                        <ul className="pp-details-list">
-                          <li>
-                            <i className="fa-solid fa-circle-check"></i>Page Load
-                            (time, size, number of requests).
-                          </li>
-                          <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="pp-faq-wrapper mt-5">
-                      <div className="faq-accordion-items">
-                        <div className="faq-accordion">
-                          <div className="accordion" id="accordion">
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".3s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.3s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq1"
-                                  aria-expanded="true"
-                                  aria-controls="faq1"
-                                >
-                                  Why Is SEO Important For Small Business?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq1"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".5s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.5s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq2"
-                                  aria-expanded="false"
-                                  aria-controls="faq2"
-                                >
-                                  How do I choose the best SEO Agency?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq2"
-                                className="accordion-collapse show"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq3"
-                                  aria-expanded="false"
-                                  aria-controls="faq3"
-                                >
-                                  Better Security And Faster Server?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq3"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-0 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq4"
-                                  aria-expanded="false"
-                                  aria-controls="faq4"
-                                >
-                                  Deployment Within Few Minutes
-                                </button>
-                              </h5>
-                              <div
-                                id="faq4"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </>
@@ -794,32 +398,26 @@ const ServiceDetail = () => {
                     <div className="pp-service-details-content">
                       <h3>SEO & Digital Marketing</h3>
                       <p className="mb-4">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        In today’s competitive digital landscape, visibility is
+                        everything. At Cloudemy, we help brands grow, engage,
+                        and convert through data-driven SEO and Digital
+                        Marketing strategies. Our goal is simple — to position
+                        your business in front of the right audience, at the
+                        right time, with the right message. We combine
+                        creativity, technology, and analytics to deliver
+                        measurable results that drive growth and long-term
+                        success.
                       </p>
-                      <p className="mb-4">
-                        pellentesque vulputate malesuada dictumst fames interdum
-                        cursus an te tellus porta ullamcorper accumsan non eu
-                        adipiscing integer venenatis sagittis arcu curae finibus
-                        ridi culus aliquam velit lobortis senectus vitae
-                        sollicitudin sit consectetuer ultricies rutrum
-                        parturient pede nisi nascetur habitant netus quisque
-                        elementum inceptos nam felis penatibus feugiat
-                      </p>
-                      <h3>What We Provide</h3>
+
+                      <h3>Our Approach</h3>
                       <p className="mb-5">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        Our strategy begins with understanding your brand,
+                        audience, and goals.We perform in-depth keyword
+                        research, competitor analysis, and market insights to
+                        craft personalized marketing campaigns that deliver real
+                        ROI. Whether you want to improve your search rankings,
+                        boost organic traffic, or build a strong online brand
+                        identity — we have the expertise to make it happen.
                       </p>
                       <div className="pp-thumb">
                         <img
@@ -827,181 +425,82 @@ const ServiceDetail = () => {
                           alt="img"
                         />
                       </div>
-                      <h3>The Challange</h3>
-                      <p>
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
-                      </p>
+                      <h3>What We Offer</h3>
+
                       <div className="pp-details-list-items">
                         <ul className="pp-details-list">
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Various
-                            analysis options.
+                            <i className="fa-solid fa-circle-check"></i> Search
+                            Engine Optimization (SEO) – Comprehensive on-page,
+                            off-page, and technical SEO to improve visibility
+                            and ranking.
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
-                          </li>
-                        </ul>
-                        <ul className="pp-details-list">
-                          <li>
-                            <i className="fa-solid fa-circle-check"></i>Page Load
-                            (time, size, number of requests).
+                            <i className="fa-solid fa-circle-check"></i>Social
+                            Media Marketing (SMM) – Build your presence across
+                            platforms like Instagram, Facebook, LinkedIn, and X
+                            (Twitter).
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
+                            <i className="fa-solid fa-circle-check"></i>
+                            Pay-Per-Click (PPC) Advertising – Targeted Google
+                            Ads and social media campaigns that convert leads
+                            into sales.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>Content
+                            Marketing – Engaging blogs, articles, and creative
+                            visuals that attract and retain customers.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>Email
+                            Marketing – Personalized campaigns that nurture
+                            customer relationships and drive repeat business.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i> Brand
+                            Strategy & Reputation Management – Strengthen your
+                            digital presence and establish trust with your
+                            audience.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Analytics & Performance Tracking – Transparent
+                            reporting and data-driven insights to measure
+                            success and optimize campaigns.
                           </li>
                         </ul>
                       </div>
-                    </div>
-                    <div className="pp-faq-wrapper mt-5">
-                      <div className="faq-accordion-items">
-                        <div className="faq-accordion">
-                          <div className="accordion" id="accordion">
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".3s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.3s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq1"
-                                  aria-expanded="true"
-                                  aria-controls="faq1"
-                                >
-                                  Why Is SEO Important For Small Business?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq1"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".5s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.5s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq2"
-                                  aria-expanded="false"
-                                  aria-controls="faq2"
-                                >
-                                  How do I choose the best SEO Agency?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq2"
-                                className="accordion-collapse show"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq3"
-                                  aria-expanded="false"
-                                  aria-controls="faq3"
-                                >
-                                  Better Security And Faster Server?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq3"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-0 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq4"
-                                  aria-expanded="false"
-                                  aria-controls="faq4"
-                                >
-                                  Deployment Within Few Minutes
-                                </button>
-                              </h5>
-                              <div
-                                id="faq4"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <h3 className="whyChooseUs">Why Choose Us</h3>
+
+                      <div className="pp-details-list-items">
+                        <ul className="pp-details-list">
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Data-Driven Strategy : Every decision backed by real
+                            insights and analytics.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Creative + Technical Expertise : A perfect balance
+                            of strategy, content, and technology.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Transparent Reporting : Clear performance reports
+                            and measurable KPIs.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Full-Funnel Approach: From awareness to conversion —
+                            we handle every stage of the customerjourney.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Proven Results: Boost in traffic, engagement, and
+                            ROI with sustainable long-term growth.
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </>
@@ -1011,32 +510,28 @@ const ServiceDetail = () => {
                     <div className="pp-service-details-content">
                       <h3>UI/UX Design</h3>
                       <p className="mb-4">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        At Cloudemy, we believe that great design is not just
+                        about looks — it’s about creating experiences that
+                        connect, engage, and inspire users. Our UI/UX design
+                        services focus on understanding user behavior, blending
+                        creativity with strategy, and delivering interfaces that
+                        are intuitive, attractive, and conversion-driven.
+                        Whether you’re building a new product or redesigning an
+                        existing one, our design process ensures every click,
+                        scroll, and interaction feels seamless and meaningful.
                       </p>
-                      <p className="mb-4">
-                        pellentesque vulputate malesuada dictumst fames interdum
-                        cursus an te tellus porta ullamcorper accumsan non eu
-                        adipiscing integer venenatis sagittis arcu curae finibus
-                        ridi culus aliquam velit lobortis senectus vitae
-                        sollicitudin sit consectetuer ultricies rutrum
-                        parturient pede nisi nascetur habitant netus quisque
-                        elementum inceptos nam felis penatibus feugiat
-                      </p>
-                      <h3>What We Provide</h3>
+
+                      <h3>Our Approach</h3>
                       <p className="mb-5">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        We follow a user-centric design philosophy — combining
+                        research, usability, and visual storytelling. Our team
+                        begins by understanding your users, business goals, and
+                        brand identity. Using wireframes, prototypes, and design
+                        sprints, we craft designs that are not only visually
+                        appealing but also easy to use and optimized for
+                        performance. Every element — color, typography, layout,
+                        and motion — is designed with purpose,ensuring the final
+                        product delivers both beauty and functionality.
                       </p>
                       <div className="pp-thumb">
                         <img
@@ -1044,181 +539,74 @@ const ServiceDetail = () => {
                           alt="img"
                         />
                       </div>
-                      <h3>The Challange</h3>
-                      <p>
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
-                      </p>
+                      <h3>What We Offer</h3>
+                      <p></p>
                       <div className="pp-details-list-items">
                         <ul className="pp-details-list">
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Various
-                            analysis options.
+                            <i className="fa-solid fa-circle-check"></i>User
+                            Research & Analysis – Understanding user needs,
+                            behaviors, and pain points.
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
-                          </li>
-                        </ul>
-                        <ul className="pp-details-list">
-                          <li>
-                            <i className="fa-solid fa-circle-check"></i>Page Load
-                            (time, size, number of requests).
+                            <i className="fa-solid fa-circle-check"></i>
+                            Wireframing & Prototyping – Building the structure
+                            and flow before design implementation.
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
+                            <i className="fa-solid fa-circle-check"></i>UI
+                            Design (User Interface) – Modern, clean, and
+                            visually compelling interfaces that reflect your
+                            brand.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>UX
+                            Design (User Experience) – Seamless navigation and
+                            intuitive user journeys for better engagement.
+                          </li>
+
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Usability Testing – Real-world testing to ensure
+                            your design performs flawlessly across devices.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>Product
+                            Redesign – Refresh outdated interfaces with a
+                            modern, user-friendly look.
                           </li>
                         </ul>
                       </div>
-                    </div>
-                    <div className="pp-faq-wrapper mt-5">
-                      <div className="faq-accordion-items">
-                        <div className="faq-accordion">
-                          <div className="accordion" id="accordion">
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".3s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.3s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq1"
-                                  aria-expanded="true"
-                                  aria-controls="faq1"
-                                >
-                                  Why Is SEO Important For Small Business?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq1"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".5s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.5s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq2"
-                                  aria-expanded="false"
-                                  aria-controls="faq2"
-                                >
-                                  How do I choose the best SEO Agency?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq2"
-                                className="accordion-collapse show"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq3"
-                                  aria-expanded="false"
-                                  aria-controls="faq3"
-                                >
-                                  Better Security And Faster Server?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq3"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-0 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq4"
-                                  aria-expanded="false"
-                                  aria-controls="faq4"
-                                >
-                                  Deployment Within Few Minutes
-                                </button>
-                              </h5>
-                              <div
-                                id="faq4"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <h3 className="whyChooseUs">Why Choose Us</h3>
+
+                      <div className="pp-details-list-items">
+                        <ul className="pp-details-list">
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            User-Centric Approach : Every decision is made with
+                            the end-user in mind.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Creative Excellence : Designs that are both
+                            functional and visually stunning.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Collaborative Process : Regular feedback loops and
+                            transparent communication.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Cross-Platform Consistency: Seamless design
+                            experience across mobile, web, and desktop.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Conversion-Focused : A perfect balance of aesthetics
+                            and business goals.
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </>
@@ -1228,32 +616,26 @@ const ServiceDetail = () => {
                     <div className="pp-service-details-content">
                       <h3>Maintenance & Support</h3>
                       <p className="mb-4">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        Launching your app or website is just the beginning —
+                        keeping it fast, secure, and up-to-date is what ensures
+                        long-term success. At Cloudemy, we provide reliable
+                        maintenance and technical support services to keep your
+                        digital products performing at their best. From security
+                        monitoring and bug fixes to performance optimization and
+                        feature updates, our team ensures your systems remain
+                        stable, responsive, and future-ready.
                       </p>
-                      <p className="mb-4">
-                        pellentesque vulputate malesuada dictumst fames interdum
-                        cursus an te tellus porta ullamcorper accumsan non eu
-                        adipiscing integer venenatis sagittis arcu curae finibus
-                        ridi culus aliquam velit lobortis senectus vitae
-                        sollicitudin sit consectetuer ultricies rutrum
-                        parturient pede nisi nascetur habitant netus quisque
-                        elementum inceptos nam felis penatibus feugiat
-                      </p>
-                      <h3>What We Provide</h3>
+
+                      <h3>Our Approach</h3>
                       <p className="mb-5">
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
+                        We believe maintenance is not just about fixing issues —
+                        it’s about ensuring continuous improvement. Our
+                        proactive team monitors performance, identifies
+                        potential risks, and implements updates before problems
+                        arise. With regular maintenance schedules, security
+                        checks, and version upgrades, we help your business
+                        avoid downtime and maintain an uninterrupted digital
+                        experience for your users.
                       </p>
                       <div className="pp-thumb">
                         <img
@@ -1261,181 +643,79 @@ const ServiceDetail = () => {
                           alt="img"
                         />
                       </div>
-                      <h3>The Challange</h3>
-                      <p>
-                        At tempus aenean sapien torquent sed diam class
-                        efficitur mus morbi eros dictum quam augue ac laor eet
-                        ligula libero mi commodo nibh hac fermentum orci ad
-                        pharetra consequat justo duis turpis lorem elit dui
-                        consectetur magnis lacinia odio per placerat vestibulum
-                        volutpat mauris mollis primis imperdiet posu ere ex enim
-                        gravida cras congue
-                      </p>
+                      <h3> What We Offer</h3>
+
                       <div className="pp-details-list-items">
                         <ul className="pp-details-list">
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Various
-                            analysis options.
+                            <i className="fa-solid fa-circle-check"></i>
+                            Website & App Maintenance – Regular updates,
+                            patches, and improvements to ensure peak
+                            performance.
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
+                            <i className="fa-solid fa-circle-check"></i> Bug
+                            Fixes & Error Handling – Quick resolution of
+                            technical issues and code-level fixes.
                           </li>
-                        </ul>
-                        <ul className="pp-details-list">
+
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Page Load
-                            (time, size, number of requests).
+                            <i className="fa-solid fa-circle-check"></i>Security
+                            Monitoring – Continuous protection against
+                            vulnerabilities, malware, and threats.
                           </li>
                           <li>
-                            <i className="fa-solid fa-circle-check"></i>Advance Data
-                            analysis operation.
+                            <i className="fa-solid fa-circle-check"></i>
+                            Performance Optimization – Enhancing load speed,
+                            database efficiency, and server response.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>Version
+                            & Framework Upgrades – Keeping your platform updated
+                            with the latest technology standards.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>Backup &
+                            Recovery Solutions – Secure data management with
+                            scheduled backups and disaster recovery.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Technical Support (24/7) – Dedicated support team
+                            available to assist you whenever you need help.
                           </li>
                         </ul>
                       </div>
-                    </div>
-                    <div className="pp-faq-wrapper mt-5">
-                      <div className="faq-accordion-items">
-                        <div className="faq-accordion">
-                          <div className="accordion" id="accordion">
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".3s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.3s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq1"
-                                  aria-expanded="true"
-                                  aria-controls="faq1"
-                                >
-                                  Why Is SEO Important For Small Business?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq1"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".5s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.5s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq2"
-                                  aria-expanded="false"
-                                  aria-controls="faq2"
-                                >
-                                  How do I choose the best SEO Agency?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq2"
-                                className="accordion-collapse show"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-3 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq3"
-                                  aria-expanded="false"
-                                  aria-controls="faq3"
-                                >
-                                  Better Security And Faster Server?
-                                </button>
-                              </h5>
-                              <div
-                                id="faq3"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              className="accordion-item mb-0 wow fadeInUp"
-                              data-wow-delay=".7s"
-                              style={{
-                                visibility: "visible",
-                                animationDelay: "0.7s",
-                                animationName: "fadeInUp",
-                              }}
-                            >
-                              <h5 className="accordion-header">
-                                <button
-                                  className="accordion-button collapsed"
-                                  type="button"
-                                  data-bs-toggle="collapse"
-                                  data-bs-target="#faq4"
-                                  aria-expanded="false"
-                                  aria-controls="faq4"
-                                >
-                                  Deployment Within Few Minutes
-                                </button>
-                              </h5>
-                              <div
-                                id="faq4"
-                                className="accordion-collapse collapse"
-                                data-bs-parent="#accordion"
-                              >
-                                <div className="accordion-body">
-                                  Nullam faucibus eleifend mi eu varius. Integer
-                                  vel tincidunt massa, quis semper odio.Mauris
-                                  et mollis quam. Nullam fringilla erat id ante
-                                  commodo maximus
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      <h3 className="whyChooseUs">Why Choose Us</h3>
+
+                      <div className="pp-details-list-items">
+                        <ul className="pp-details-list">
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Proactive Maintenance : We prevent issues before
+                            they affect performance.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            24/7 Support Availability : Always ready to respond,
+                            no matter the time zone.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Expert Team : Skilled engineers with deep knowledge
+                            of app and web ecosystems.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Cost-Effective Plans : Flexible maintenance packages
+                            tailored to your business needs.
+                          </li>
+                          <li>
+                            <i className="fa-solid fa-circle-check"></i>
+                            Security First Approach : Continuous monitoring and
+                            updates for maximum protection.
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </>

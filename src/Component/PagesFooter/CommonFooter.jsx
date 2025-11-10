@@ -20,8 +20,9 @@ const CommonFooter = () => {
               >
                 <h2>Take Your Business Higher — Today!</h2>
                 <p>
-                  Aliquam finibus odio sollicitudin vestibulum tincidunt. Nullam
-                  vel fringilla elit.auctor ut,cursus ut mauris.
+                  Grow your business smarter with instant services, secure
+                  payments, and reliable support—start expanding your success
+                  today with confidence.
                 </p>
               </div>
               <form
@@ -113,12 +114,12 @@ const CommonFooter = () => {
                     <li>
                       <Link to="/services">Service</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/portfolio">Portfolio</Link>
                     </li>
                     <li>
                       <Link to="/blog">Blog</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to="/contact">Contact Us</Link>
                     </li>

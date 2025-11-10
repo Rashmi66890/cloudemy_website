@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Body = () => {
   const brandImages = [
@@ -11,6 +14,22 @@ const Body = () => {
     "/assets/img/home-1/brand/ios.png",
     "/assets/img/home-1/brand/html.png",
   ];
+  const settings = {
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    arrows: false,
+    pauseOnHover: false,
+    responsive: [
+      { breakpoint: 1200, settings: { slidesToShow: 5 } },
+      { breakpoint: 992, settings: { slidesToShow: 4 } },
+      { breakpoint: 768, settings: { slidesToShow: 3 } },
+      { breakpoint: 576, settings: { slidesToShow: 2 } },
+      { breakpoint: 0, settings: { slidesToShow: 1 } },
+    ],
+  };
 
   return (
     <>
@@ -65,7 +84,7 @@ const Body = () => {
                     Get Started Now
                     <i className="fa-solid fa-arrow-right-long"></i>
                   </Link>
-                  <Link
+                  {/* <Link
                     to="/portfolio"
                     className="pp-theme-btn pp-style-2 wow fadeInUp"
                     data-wow-delay=".3s"
@@ -77,7 +96,7 @@ const Body = () => {
                   >
                     See Our Work
                     <i className="fa-solid fa-arrow-right-long"></i>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -85,6 +104,7 @@ const Body = () => {
         </div>
       </section>
 
+    
       <div className="pp-brand-section section-padding pb-0 fix">
         <div className="container custom-container-3">
           <div className="brand-wrapper style-2">
@@ -92,23 +112,8 @@ const Body = () => {
               <h3>Powering Innovation with Modern Tech</h3>
             </div>
 
-            <div
-              className="swiper pp-brand-slider"
-              data-swiper='{
-              "loop": true,
-              "autoplay": { "delay": 2000, "disableOnInteraction": false },
-              "slidesPerView": 5,
-              "spaceBetween": 100, 
-              "breakpoints": {
-                "1200": {"slidesPerView": 5},
-                "992": {"slidesPerView": 4},
-                "768": {"slidesPerView": 3},
-                "576": {"slidesPerView": 2},
-                "0": {"slidesPerView": 1}
-              }
-            }'
-            >
-              <div className="swiper-wrapper">
+            <div className="swiper pp-brand-slider">
+              <Slider {...settings}>
                 {brandImages.map((src, i) => (
                   <div className="swiper-slide" key={i}>
                     <div className="brand-image text-center">
@@ -116,7 +121,7 @@ const Body = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </Slider>
             </div>
           </div>
         </div>
@@ -700,8 +705,8 @@ const Body = () => {
                         </ul>
                       </div>
                       <div className="pricing-button">
-                        <Link to="/portfolio" className="pp-theme-btn">
-                          Explore What We’ve Built
+                        <Link to="#" className="pp-theme-btn">
+                          {/* Explore What We’ve Built */}
                         </Link>
                       </div>
                     </div>
@@ -751,8 +756,8 @@ const Body = () => {
                         </ul>
                       </div>
                       <div className="pricing-button">
-                        <Link to="/portfolio" className="pp-theme-btn">
-                          Explore What We’ve Built
+                        <Link to="#" className="pp-theme-btn">
+                          {/* Explore What We’ve Built */}
                         </Link>
                       </div>
                     </div>
@@ -802,8 +807,8 @@ const Body = () => {
                         </ul>
                       </div>
                       <div className="pricing-button">
-                        <Link to="/portfolio" className="pp-theme-btn">
-                          Explore What We’ve Built
+                        <Link to="#" className="pp-theme-btn">
+                          {/* Explore What We’ve Built */}
                         </Link>
                       </div>
                     </div>
@@ -1574,7 +1579,7 @@ const Body = () => {
           </div>
         </div>
       </section>
-      <section className="pp-news-section-2 section-padding fix">
+      {/* <section className="pp-news-section-2 section-padding fix">
         <div className="container">
           <div className="pp-section-title text-center">
             <span
@@ -1696,7 +1701,7 @@ const Body = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="pp-cta-section section-padding fix theme-bg">
         <div className="top-shape">
           <img src="assets/img/home-1/cta/bg.png" alt="img" />
