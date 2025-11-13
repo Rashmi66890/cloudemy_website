@@ -669,7 +669,7 @@ const ServiceDetail = () => {
                             Performance Optimization – Enhancing load speed,
                             database efficiency, and server response.
                           </li>
-                          <li>
+                          <li> 
                             <i className="fa-solid fa-circle-check"></i>Version
                             & Framework Upgrades – Keeping your platform updated
                             with the latest technology standards.
@@ -678,7 +678,7 @@ const ServiceDetail = () => {
                             <i className="fa-solid fa-circle-check"></i>Backup &
                             Recovery Solutions – Secure data management with
                             scheduled backups and disaster recovery.
-                          </li>
+                          </li>   
                           <li>
                             <i className="fa-solid fa-circle-check"></i>
                             Technical Support (24/7) – Dedicated support team

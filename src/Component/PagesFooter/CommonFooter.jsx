@@ -8,7 +8,7 @@ const CommonFooter = () => {
       >
         <div className="container">
           <div className="pp-footer-widget-wrapper pp-style-2">
-            <div className="pp-footer-newsletter">
+            {/* <div className="pp-footer-newsletter">
               <div
                 className="pp-newsletter-content wow fadeInUp"
                 data-wow-delay=".3s"
@@ -47,7 +47,7 @@ const CommonFooter = () => {
                   </button>
                 </div>
               </form>
-            </div>
+            </div> */}
             <div className="row justify-content-between">
               <div
                 className="col-xl-5 col-lg-4 col-md-6 wow fadeInUp"
@@ -121,7 +121,7 @@ const CommonFooter = () => {
                       <Link to="/blog">Blog</Link>
                     </li> */}
                     <li>
-                      <Link to="/contact">Contact Us</Link>
+                      <Link to="/contact">Contact Us</Link> 
                     </li>
                   </ul>
                 </div>
@@ -209,7 +209,7 @@ const CommonFooter = () => {
                   animationName: "fadeInUp",
                 }}
               >
-                Copyright© <b>Pixel-plus</b>
+                Copyright© <b>Cloudemy</b>
               </p>
               <ul
                 className="pp-footer-list wow fadeInUp"

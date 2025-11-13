@@ -173,7 +173,7 @@ const Footer = () => {
                   animationName: "fadeInUp",
                 }}
               >
-                Copyright© <b>Pixel-plus</b>
+                Copyright© <b>Cloudemy</b>
               </p>
               <ul
                 className="pp-footer-list wow fadeInUp"

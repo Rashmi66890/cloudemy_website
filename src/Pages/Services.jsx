@@ -230,7 +230,7 @@ const Services = () => {
                         animationName: "fadeInUp",
                       }}
                     >
-                      The Upshift Hub
+                      The Modern Tech
                     </span>
                     <h2
                       className="text-white wow fadeInUp"
@@ -241,7 +241,7 @@ const Services = () => {
                         animationName: "fadeInUp",
                       }}
                     >
-                      Experience the Next Smart Work with The Upshift
+                      Experience The Next Smart Move In Digital Innovation
                     </h2>
                   </div>
                   <p
@@ -253,12 +253,12 @@ const Services = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    Duis congue eget neque sit amet mollis. Aliquam auctor diam
-                    sit amet efficitur condimentum. Aliquam vitae scelerisque
-                    leo, eu vulputate felis. Donec et tristique nisl. Ut
-                    bibendum vehicula elit a consequat.
+                    From intelligent automation to scalable app ecosystems, we
+                    craft technology that works for you. Our expert team blends
+                    creativity, strategy, and innovation to deliver impactful
+                    digital experiences that transform your business for the
+                    future.
                   </p>
-                 
                 </div>
               </div>
               <div className="col-lg-6">
@@ -356,10 +356,11 @@ const Services = () => {
               >
                 <div className="pp-testimonial-card">
                   <p>
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer fermentum, turpis id bibendum efficitur, arcu nunc
-                    pellentesque arcu, nec condimentum eros erat nec orci.
-                    Maecenas pretium.”
+                    “From the first meeting, they made everything clear and easy
+                    to understand. The mobile app they built for us runs
+                    smoothly, and our users absolutely love the new interface.
+                    What impressed me most was their attention to detail and
+                    genuine commitment.”
                   </p>
                   <div className="pp-client-info-item">
                     <div className="pp-client-image">
@@ -369,8 +370,8 @@ const Services = () => {
                       />
                     </div>
                     <div className="pp-content">
-                      <h5>Kristin Watson</h5>
-                      <span>Digital Strategist at Nova Agency</span>
+                      <h5>Priyanka Sharma</h5>
+                      <span>Saz-Cars</span>
                     </div>
                   </div>
                 </div>
@@ -384,10 +385,11 @@ const Services = () => {
               >
                 <div className="pp-testimonial-card">
                   <p>
-                    “Mauris vehicula iaculis turpis, vel luctus lacus dapibus
-                    rhoncus. Nullam dignissim eros ut elit luctus, a ullamcorper
-                    risus tristique. Donec imperdiet elit at mi commodo, id
-                    consequat diam venenatis.”
+                    “We needed a reliable tech partner to build a complex
+                    backend system. Cloudemy delivered it right on
+                    time — secure, scalable, and bug-free. Their developers know
+                    what they’re doing, and they communicate better than most
+                    teams I’ve worked with.”
                   </p>
                   <div className="pp-client-info-item">
                     <div className="pp-client-image">
@@ -397,8 +399,8 @@ const Services = () => {
                       />
                     </div>
                     <div className="pp-testimonial-content">
-                      <h5>Guy Hawkins</h5>
-                      <span>Marketing Manager at GrowFast Inc.</span>
+                      <h5>Manpreet Ahluwaliya</h5>
+                      <span>BillNest</span>
                     </div>
                   </div>
                 </div>
@@ -412,10 +414,11 @@ const Services = () => {
               >
                 <div className="pp-testimonial-card">
                   <p>
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer fermentum, turpis id bibendum efficitur, arcu nunc
-                    pellentesque arcu, nec condimentum eros erat nec orci.
-                    Maecenas pretium.”
+                    “From the first meeting, they made everything clear and easy
+                    to understand. The mobile app they built for us runs
+                    smoothly, and our users absolutely love the new interface.
+                    What impressed me most was their attention to detail and
+                    genuine commitment.”
                   </p>
                   <div className="pp-client-info-item">
                     <div className="pp-client-image">
@@ -425,8 +428,8 @@ const Services = () => {
                       />
                     </div>
                     <div className="pp-content">
-                      <h5>Kristin Watson</h5>
-                      <span>Digital Strategist at Nova Agency</span>
+                      <h5>Priyanka Sharma</h5>
+                      <span>Saz-Cars</span>
                     </div>
                   </div>
                 </div>
@@ -440,10 +443,11 @@ const Services = () => {
               >
                 <div className="pp-testimonial-card">
                   <p>
-                    “Mauris vehicula iaculis turpis, vel luctus lacus dapibus
-                    rhoncus. Nullam dignissim eros ut elit luctus, a ullamcorper
-                    risus tristique. Donec imperdiet elit at mi commodo, id
-                    consequat diam venenatis.”
+                    “We needed a reliable tech partner to build a complex
+                    backend system. Cloudemy delivered it right on
+                    time — secure, scalable, and bug-free. Their developers know
+                    what they’re doing, and they communicate better than most
+                    teams I’ve worked with.”
                   </p>
                   <div className="pp-client-info-item">
                     <div className="pp-client-image">
@@ -453,8 +457,8 @@ const Services = () => {
                       />
                     </div>
                     <div className="pp-testimonial-content">
-                      <h5>Guy Hawkins</h5>
-                      <span>Marketing Manager at GrowFast Inc.</span>
+                      <h5>Manpreet Ahluwaliya</h5>
+                      <span>BillNest</span>
                     </div>
                   </div>
                 </div>
@@ -468,10 +472,11 @@ const Services = () => {
               >
                 <div className="pp-testimonial-card">
                   <p>
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer fermentum, turpis id bibendum efficitur, arcu nunc
-                    pellentesque arcu, nec condimentum eros erat nec orci.
-                    Maecenas pretium.”
+                    “From the first meeting, they made everything clear and easy
+                    to understand. The mobile app they built for us runs
+                    smoothly, and our users absolutely love the new interface.
+                    What impressed me most was their attention to detail and
+                    genuine commitment.”
                   </p>
                   <div className="pp-client-info-item">
                     <div className="pp-client-image">
@@ -481,8 +486,8 @@ const Services = () => {
                       />
                     </div>
                     <div className="pp-content">
-                      <h5>Kristin Watson</h5>
-                      <span>Digital Strategist at Nova Agency</span>
+                      <h5>Priyanka Sharma</h5>
+                      <span>Saz-Cars</span>
                     </div>
                   </div>
                 </div>

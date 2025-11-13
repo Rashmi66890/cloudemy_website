@@ -96,34 +96,34 @@
     /* ================================
        Pp-Brand Slider Js Start
     ================================ */
-    if ($('.pp-brand-slider').length > 0) {
-      const ppBrandSlider = new Swiper(".pp-brand-slider", {
-        spaceBetween: 100,
-        speed: 2000,
-        loop: true,
-        autoplay: {
-          delay: 1000,
-          disableOnInteraction: false,
-        },
-        breakpoints: {
-          1199: {
-            slidesPerView: 5,
-          },
-          991: {
-            slidesPerView: 4,
-          },
-          767: {
-            slidesPerView: 3,
-          },
-          575: {
-            slidesPerView: 2,
-          },
-          0: {
-            slidesPerView: 1,
-          },
-        },
-      });
-    }
+    // if ($('.pp-brand-slider').length > 0) {
+    //   const ppBrandSlider = new Swiper(".pp-brand-slider", {
+    //     spaceBetween: 100,
+    //     speed: 2000,
+    //     loop: true,
+    //     autoplay: {
+    //       delay: 1000,
+    //       disableOnInteraction: false,
+    //     },
+    //     breakpoints: {
+    //       1199: {
+    //         slidesPerView: 5,
+    //       },
+    //       991: {
+    //         slidesPerView: 4,
+    //       },
+    //       767: {
+    //         slidesPerView: 3,
+    //       },
+    //       575: {
+    //         slidesPerView: 2,
+    //       },
+    //       0: {
+    //         slidesPerView: 1,
+    //       },
+    //     },
+    //   });
+    // }
 
     /* ================================
        Pp-Testimonial Slider Js Start

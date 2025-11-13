@@ -55,7 +55,7 @@ const AboutUs = () => {
                         animationName: "fadeInUp",
                       }}
                     >
-                      Crafting Ideas into Digital Impact
+                      Transforming Vision into Digital Excellence
                     </h2>
                   </div>
                   <p
@@ -67,10 +67,11 @@ const AboutUs = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    In vestibulum dui a odio pharetra, nec accumsan sapien
-                    consectetur. Pellentesque magna risus, volutpat a vestibulum
-                    ut, tempus et quam. Nulla vitae erat blandit, mattis nisl
-                    ut, venenatis enim. Maecenas tempus arcu tincidunt.
+                    At Cloudemy, we partner with businesses to architect
+                    innovative digital solutions that drive measurable growth
+                    and competitive advantage. As a specialized IT solutions
+                    provider, we combine strategic thinking with technical
+                    expertise to deliver transformative results.
                   </p>
                   <div className="pp-about-item">
                     <div
@@ -84,11 +85,16 @@ const AboutUs = () => {
                     >
                       <h6>
                         <img src="assets/img/home-1/icon/cheak.svg" alt="img" />
-                        Smart Automation
+                        Enterprise-Grade Technology
                       </h6>
                       <p>
-                        Streamline repetitive tasks and workflows with
-                        intelligent automation tools.
+                        Our technical foundation is built on scalability,
+                        security, and performance. Whether you're a growing
+                        startup or an established enterprise, we architect
+                        robust web applications, native mobile solutions, and
+                        cloud-native backends engineered to handle demanding
+                        workloads while maintaining exceptional user
+                        experiences.
                       </p>
                     </div>
                     <div
@@ -102,11 +108,36 @@ const AboutUs = () => {
                     >
                       <h6>
                         <img src="assets/img/home-1/icon/cheak.svg" alt="img" />
-                        Powerful Automation
+                        Intelligent Automation
                       </h6>
                       <p>
-                        Donec eu hendrerit lorem. In ultrices erat pulvinar
-                        venenatis auctor.
+                        We design and implement sophisticated automation
+                        frameworks that optimize operational efficiency. Our
+                        solutions eliminate manual bottlenecks, minimize errors,
+                        and free your team to focus on strategic initiatives.
+                        Leveraging AI and machine learning, we turn complex
+                        workflows into streamlined, intelligent processes.
+                      </p>
+                    </div>
+                    <div
+                      className="pp-about-text wow fadeInUp"
+                      data-wow-delay=".5s"
+                      style={{
+                        visibility: "visible",
+                        animationDelay: "0.5s",
+                        animationName: "fadeInUp",
+                      }}
+                    >
+                      <h6>
+                        <img src="assets/img/home-1/icon/cheak.svg" alt="img" />
+                        Results-Driven Partnership
+                      </h6>
+                      <p>
+                        Success is measured in outcomes. We align our work with
+                        your key performance indicators, focusing on solutions
+                        that deliver tangible ROI—whether that's increased
+                        revenue, improved efficiency, enhanced user engagement,
+                        or faster time to market.
                       </p>
                     </div>
                   </div>
@@ -139,6 +170,7 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+
       <section className="pp-how-work-section section-padding fix section-bg-2">
         <div className="top-shape">
           <img src="assets/img/home-1/feature/bg-shape.png" alt="img" />
@@ -148,80 +180,58 @@ const AboutUs = () => {
         </div>
         <div className="container">
           <div className="pp-section-title text-center">
-            <span
-              className="pp-sub-title wow fadeInUp"
-              style={{
-                visibility: "visible",
-                animationName: "fadeInUp",
-              }}
-            >
-              HOW IT WORKS
-              <span className="pp-style-2"></span>
+            <span className="pp-sub-title wow fadeInUp">
+              HOW IT WORKS <span className="pp-style-2"></span>
             </span>
-            <h2
-              className="text-white wow fadeInUp"
-              data-wow-delay=".3s"
-              style={{
-                visibility: "visible",
-                animationDelay: "0.3s",
-                animationName: "fadeInUp",
-              }}
-            >
-              Marketing Made Simple
+            <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
+              Turning Ideas Into Scalable Solutions
             </h2>
           </div>
+
           <div className="row">
+            {/* STEP 1 */}
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
               data-wow-delay=".3s"
-              style={{
-                visibility: "visible",
-                animationDelay: "0.3s",
-                animationName: "fadeInUp",
-              }}
             >
               <div className="pp-how-work-items">
                 <h6>STEP-01</h6>
-                <h3> Track, Analyze &amp; Optimize</h3>
+                <h3>Understand & Strategize</h3>
                 <p>
-                  Aenean id est pellentesque, consequat sem et, viverra lacus.
-                  Aliquam tincidunt.
+                  We start by understanding your business goals and technical
+                  needs, then create a clear development strategy aligned with
+                  your vision.
                 </p>
               </div>
             </div>
+
+            {/* STEP 2 */}
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
               data-wow-delay=".5s"
-              style={{
-                visibility: "visible",
-                animationDelay: "0.5s",
-                animationName: "fadeInUp",
-              }}
             >
               <div className="pp-how-work-items pp-style-2">
                 <h6>STEP-02</h6>
-                <h3>Insight. Action. Results.</h3>
+                <h3>Design & Develop</h3>
                 <p>
-                  Mauris dignissim vel augue vel congue. Pellentesque sit amet
-                  metus tortor hendrerit.
+                  Our team builds modern, responsive, and scalable web or mobile
+                  applications using the latest frameworks and best coding
+                  practices.
                 </p>
               </div>
             </div>
+
+            {/* STEP 3 */}
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
               data-wow-delay=".7s"
-              style={{
-                visibility: "visible",
-                animationDelay: "0.7s",
-                animationName: "fadeInUp",
-              }}
             >
               <div className="pp-how-work-items">
                 <h6>STEP-03</h6>
-                <h3>Monitor, Measure &amp; Improve</h3>
+                <h3>Test, Launch & Support</h3>
                 <p>
-                  Donec eu hendrerit lorem. In ultrices erat pulvinar venenatis
-                  auctor.
+                  After rigorous testing, we deploy your project smoothly and
+                  provide ongoing maintenance and support for long-term success.
                 </p>
               </div>
             </div>
@@ -264,7 +274,7 @@ const AboutUs = () => {
                         animationName: "fadeInUp",
                       }}
                     >
-                      Intuitive Campaign Editor
+                      Why Choose Us?
                     </h2>
                   </div>
                   <p
@@ -276,9 +286,10 @@ const AboutUs = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    Duis congue eget neque sit amet mollis. Aliquam auctor diam
-                    sit amet efficitur condimentum. Aliquam vitae scelerisque
-                    leo, eu vulputate felis.
+                    To be recognized globally as a premier technology
+                    partner—delivering digital solutions that seamlessly blend
+                    aesthetic excellence with business intelligence, driving
+                    sustainable growth for organizations across industries.
                   </p>
                   <ul
                     className="pp-feature-list wow fadeInUp"
@@ -289,9 +300,11 @@ const AboutUs = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    <li>Intuitive Drag &amp; Drop Editor</li>
-                    <li>Mobile-Responsive Design</li>
-                    <li>Undo/Redo &amp; Version History</li>
+                    <li>Proven Expertise </li>
+                    <li>End-to-End Solution</li>
+                    <li>Agile & Transparent </li>
+                    <li>Quality Assurance</li>
+                    <li>Long-Term Partnership </li>
                   </ul>
                 </div>
               </div>
@@ -334,7 +347,7 @@ const AboutUs = () => {
                       <p>
                         Our Smart Features Make Complex Tasks Simple and Save
                         You Hours Every Week with Real-Time Insights and
-                        Automation.
+                        Automation
                       </p>
                       <h3>Marc Delalonde</h3>
                       <span>Co-Founder - Penida</span>
@@ -448,7 +461,7 @@ const AboutUs = () => {
                         animationName: "fadeInUp",
                       }}
                     >
-                      Data-Backed AI Insights
+                      Industries We Serve
                     </h2>
                   </div>
                   <p
@@ -460,9 +473,8 @@ const AboutUs = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    Donec eu hendrerit lorem. In ultrices erat pulvinar
-                    venenatis auctor. Fusce porta massa sit amet leo rutrum, id
-                    imperdiet diam pretium. quis lacinia dui.
+                    Our developers build robust, scalable solutions using
+                    cutting-edge technologies and best coding practices
                   </p>
                   <ul
                     className="pp-feature-list wow fadeInUp"
@@ -473,9 +485,11 @@ const AboutUs = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    <li>Intuitive Drag &amp; Drop Editor</li>
-                    <li>Mobile-Responsive Design</li>
-                    <li>Undo/Redo &amp; Version History</li>
+                    <li>E-Commerce & Retail</li>
+                    <li>Healthcare & MedTech</li>
+                    <li>Financial Service</li>
+                    <li>Education & E-Learning</li>
+                    <li>SaaS & Startups</li>
                   </ul>
                 </div>
               </div>
