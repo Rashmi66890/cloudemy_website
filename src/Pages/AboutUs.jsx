@@ -244,12 +244,13 @@ const AboutUs = () => {
             <div className="row g-4">
               <div className="col-lg-6">
                 <div className="pp-key-feature-image">
-                  <img src="assets/img/home-1/feature/02.jpg" alt="img" />
-                  <div className="pp-key-feature-image-2 float-bob-y">
-                    <img src="assets/img/home-1/feature/01.jpg" alt="img" />
-                  </div>
-                  <div className="pp-key-feature-image-3 float-bob-y">
-                    <img src="assets/img/home-1/feature/03.jpg" alt="img" />
+                  <img src="assets/img/home-1/feature/f2.png" alt="img"
+                    style={{ height: "400px", width: "550px" }}
+                  />
+
+                  <div className="pp-key-feature-image-3 float-bob-y cus-image">
+                    <img src="assets/img/home-1/feature/f3.png" alt="img"
+                      style={{ height: "200px", width: "100px", marginLeft: "210px" }} />
                   </div>
                 </div>
               </div>
@@ -345,12 +346,10 @@ const AboutUs = () => {
                         <i className="fa-solid fa-star"></i>
                       </div>
                       <p>
-                        Our Smart Features Make Complex Tasks Simple and Save
-                        You Hours Every Week with Real-Time Insights and
-                        Automation
+                        “Our end-to-end IT ecosystem integrates apps, CRM, cloud infrastructure, and automation to simplify your operations and deliver measurable results.”
                       </p>
-                      <h3>Marc Delalonde</h3>
-                      <span>Co-Founder - Penida</span>
+                      <h3>Cloudemy Solutions Architect</h3>
+                      {/* <span>Co-Founder - Penida</span> */}
                     </div>
                   </div>
                   <div
@@ -369,12 +368,10 @@ const AboutUs = () => {
                         <i className="fa-solid fa-star"></i>
                       </div>
                       <p>
-                        Our Smart Features Make Complex Tasks Simple and Save
-                        You Hours Every Week with Real-Time Insights and
-                        Automation.
+                        From dynamic apps to high-performance web platforms, our technology ensures speed, security, and seamless user journeys across all devices.”
                       </p>
-                      <h3>Marc Delalonde</h3>
-                      <span>Co-Founder - Penida</span>
+                      <h3>Cloudemy Engineering Team</h3>
+                      {/* <span>Co-Founder - Penida</span> */}
                     </div>
                   </div>
                   <div
@@ -393,12 +390,10 @@ const AboutUs = () => {
                         <i className="fa-solid fa-star"></i>
                       </div>
                       <p>
-                        Our Smart Features Make Complex Tasks Simple and Save
-                        You Hours Every Week with Real-Time Insights and
-                        Automation.
+                        “Our end-to-end IT ecosystem integrates apps, CRM, cloud infrastructure, and automation to simplify your operations and deliver measurable results.”
                       </p>
-                      <h3>Marc Delalonde</h3>
-                      <span>Co-Founder - Penida</span>
+                      <h3>Cloudemy Solutions Architect</h3>
+                      {/* <span>Co-Founder - Penida</span> */}
                     </div>
                   </div>
                   <div
@@ -417,12 +412,10 @@ const AboutUs = () => {
                         <i className="fa-solid fa-star"></i>
                       </div>
                       <p>
-                        Our Smart Features Make Complex Tasks Simple and Save
-                        You Hours Every Week with Real-Time Insights and
-                        Automation.
+                        From dynamic apps to high-performance web platforms, our technology ensures speed, security, and seamless user journeys across all devices.”
                       </p>
-                      <h3>Marc Delalonde</h3>
-                      <span>Co-Founder - Penida</span>
+                      <h3>Cloudemy Engineering Team</h3>
+                      {/* <span>Co-Founder - Penida</span> */}
                     </div>
                   </div>
                 </div>
@@ -476,7 +469,7 @@ const AboutUs = () => {
                     Our developers build robust, scalable solutions using
                     cutting-edge technologies and best coding practices
                   </p>
-                  <ul
+                  {/* <ul
                     className="pp-feature-list wow fadeInUp"
                     data-wow-delay=".3s"
                     style={{
@@ -490,17 +483,48 @@ const AboutUs = () => {
                     <li>Financial Service</li>
                     <li>Education & E-Learning</li>
                     <li>SaaS & Startups</li>
+                  </ul> */}
+                  <ul
+                    className="pp-feature-list wow fadeInUp"
+                    data-wow-delay=".3s"
+                    style={{
+                      visibility: "visible",
+                      animationDelay: "0.3s",
+                      animationName: "fadeInUp",
+                    }}
+                  >
+                    <li >
+                      E-Commerce & Retail –
+                    </li>
+                    <p>We build fast, secure online stores that boost conversions and customer experience.</p>
+                    <li style={{marginTop:"10px"}}>
+                      Healthcare & MedTech –
+                    </li>
+                    <p> Smart digital solutions that improve patient care and streamline medical workflows.</p>
+                    <li style={{marginTop:"10px"}}>
+                      Financial Service –
+                    </li>
+                    <p> Scalable fintech systems with secure transactions and seamless customer journeys.</p>
+                    <li style={{marginTop:"10px"}}>
+                      Education & E-Learning –
+                    </li>
+                    <p> Interactive learning platforms designed for better engagement and smooth course delivery.</p>
+                    <li style={{marginTop:"10px"}}>
+                      SaaS & Startups –
+                    </li>
+                    <p> Flexible, growth-ready software solutions crafted to help startups scale quickly.</p>
                   </ul>
+
                 </div>
               </div>
               <div className="col-lg-6">
                 <div className="pp-key-feature-image">
-                  <img src="assets/img/home-1/feature/06.jpg" alt="img" />
+                  <img src="assets/img/home-1/feature/f4.png" alt="img" />
                   <div className="pp-key-feature-image-2 float-bob-y">
-                    <img src="assets/img/home-1/feature/04.jpg" alt="img" />
+                    <img src="assets/img/home-1/feature/f5.png" alt="img" />
                   </div>
                   <div className="pp-key-feature-image-3 float-bob-y">
-                    <img src="assets/img/home-1/feature/05.jpg" alt="img" />
+                    <img src="assets/img/home-1/feature/f5.png" alt="img" />
                   </div>
                 </div>
               </div>

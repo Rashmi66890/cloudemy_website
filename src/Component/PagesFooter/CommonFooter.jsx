@@ -121,7 +121,7 @@ const CommonFooter = () => {
                       <Link to="/blog">Blog</Link>
                     </li> */}
                     <li>
-                      <Link to="/contact">Contact Us</Link> 
+                      <Link to="/contact">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -173,10 +173,10 @@ const CommonFooter = () => {
                     <div className="pp-content">
                       <h6>
                         <a href="mailto:contact.tech@gmail.com">
-                          contact.tech@gmail.com
+                          info@cloudemy.in
                         </a>
                         <br />
-                        <a href="mailto:info@neotech.com">info@neotech.com</a>
+
                       </h6>
                     </div>
                   </div>
@@ -186,12 +186,25 @@ const CommonFooter = () => {
                     </div>
                     <div className="pp-content">
                       <h6>
-                        <a href="tel:+88012365478900">+880 123 654 789 00</a>
+                        <a href="tel:+919616253555">+91 9616253555</a>
                         <br />
-                        <a href="tel:+001652069800">+001 6520 698 00</a>
+
                       </h6>
                     </div>
                   </div>
+                  <div className="pp-contact-info mb-0 mt-4">
+                    <div className="pp-icon">
+                      <i className="fa-solid fa-phone"></i>
+                    </div>
+                    <div className="pp-content">
+                      <h6>
+                        <a >Sector A, Aliganj, Lucknow, Uttar Pradesh, India, 226021</a>
+                        <br />
+
+                      </h6>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -209,7 +222,7 @@ const CommonFooter = () => {
                   animationName: "fadeInUp",
                 }}
               >
-                Copyright© <b>Cloudemy</b>
+                Copyright © <b>Cloudemy 2025</b>
               </p>
               <ul
                 className="pp-footer-list wow fadeInUp"

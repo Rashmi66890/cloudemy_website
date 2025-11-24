@@ -44,7 +44,7 @@ const ContactUs = () => {
                     </div>
                     <div className="pp-content">
                       <h4>Our Address</h4>
-                      <p>2464 Royal Ln. Mesa, New Jersey 45463.</p>
+                      <p>Sector A, Aliganj, Lucknow, Uttar Pradesh, India, 226021</p>
                     </div>
                   </div>
                   <div className="pp-contact-item">
@@ -54,8 +54,8 @@ const ContactUs = () => {
                     <div className="pp-content">
                       <h4>Contact Number</h4>
                       <p>
-                        <a href="tel:+6246159859696903566663951">
-                          +6246 1598596969 , 035 6666 3951
+                        <a href="tel:+919616253555">
+                          +91 9616253555
                         </a>
                       </p>
                     </div>
@@ -67,7 +67,7 @@ const ContactUs = () => {
                     <div className="pp-content">
                       <h4>Email Us</h4>
                       <p>
-                        <a href="mailto:info@exmple.com">info@exmple.com</a>
+                        <a href="mailto:info@exmple.com">info@cloudemy.in</a>
                       </p>
                     </div>
                   </div>

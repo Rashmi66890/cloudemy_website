@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 const AboveHeader = () => {
   return (
     <>
-      <button id="pp-back-top" className="pp-back-to-top show">
+      {/* <button id="pp-back-top" className="pp-back-to-top show">
         <i className="fa-solid fa-arrow-up"></i>
+      </button> */}
+      <button id="pp-back-top" class="pp-back-to-top show"> <i class="fa-solid fa-arrow-up"></i>
       </button>
 
       <div className="fix-area">
-
         <div className="offcanvas__info">
           <div className="offcanvas__wrapper">
             <div className="offcanvas__content">
@@ -17,7 +18,7 @@ const AboveHeader = () => {
                   <Link to="/">
                     <img
                       src="assets/img/logo/black-logo.png"
-                      alt="logo-img"   
+                      alt="logo-img"
                       style={{ height: "60px", width: "auto" }}
                     />
                   </Link>
@@ -76,9 +77,8 @@ const AboveHeader = () => {
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a href="#">
-
                     <i className="fab fa-twitter"></i>
-                  </a> 
+                  </a>
                   <a href="#">
                     <i className="fab fa-youtube"></i>
                   </a>
@@ -86,7 +86,7 @@ const AboveHeader = () => {
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
         </div>
@@ -95,6 +95,5 @@ const AboveHeader = () => {
     </>
   );
 };
-
 
 export default AboveHeader;

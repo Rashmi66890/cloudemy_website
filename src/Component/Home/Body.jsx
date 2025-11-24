@@ -104,7 +104,7 @@ const Body = () => {
         </div>
       </section>
 
-    
+
       <div className="pp-brand-section section-padding pb-0 fix">
         <div className="container custom-container-3">
           <div className="brand-wrapper style-2">
@@ -1012,7 +1012,7 @@ const Body = () => {
               <div className="col-lg-6">
                 <div className="about-image">
                   <img
-                    src="assets/img/home-1/about/about-3.jpg"
+                    src="assets/img/home-1/about/about1234.png"
                     alt="img"
                     className="wow img-custom-anim-left"
                     data-wow-duration="1.3s"
@@ -1022,8 +1022,7 @@ const Body = () => {
                       animationDuration: "1.3s",
                       animationDelay: "0.3s",
                       animationName: "img-anim-left",
-                      height: "360px",
-                      width: "500px",
+
                     }}
                   />
                   <div className="about-image-2">
