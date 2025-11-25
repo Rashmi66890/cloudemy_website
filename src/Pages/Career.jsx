@@ -502,12 +502,12 @@ const Career = () => {
                     </h3>
                     <p>Founder & CEO</p>
                     <div className="social-icon d-flex align-items-center">
-                      <Link to="#">
+                      {/* <Link to="#">
                         <i className="fab fa-facebook-f" />
                       </Link>
                       <Link to="#">
                         <i className="fab fa-twitter" />
-                      </Link>
+                      </Link> */}
                       <Link to="#">
                         <i className="fa-brands fa-instagram" />
                       </Link>
@@ -537,12 +537,12 @@ const Career = () => {
                     </h3>
                     <p>CFO</p>
                     <div className="social-icon d-flex align-items-center">
-                      <Link to="#">
+                      {/* <Link to="#">
                         <i className="fab fa-facebook-f" />
                       </Link>
                       <Link to="#">
                         <i className="fab fa-twitter" />
-                      </Link>
+                      </Link> */}
                       <Link to="#">
                         <i className="fa-brands fa-instagram" />
                       </Link>
@@ -572,12 +572,12 @@ const Career = () => {
                     </h3>
                     <p>Social Media Manager</p>
                     <div className="social-icon d-flex align-items-center">
-                      <Link to="#">
+                      {/* <Link to="#">
                         <i className="fab fa-facebook-f" />
                       </Link>
                       <Link to="#">
                         <i className="fab fa-twitter" />
-                      </Link>
+                      </Link> */}
                       <Link to="#">
                         <i className="fa-brands fa-instagram" />
                       </Link>
