@@ -6,8 +6,8 @@ const Header = () => {
       <div className="container">
         <div className="mega-menu-wrapper">
           <div className="header-main">
-            <div className="logo">
-              <Link to="/" className="header-logo">
+            <div className="logo" >
+              <Link to="#" className="header-logo">
                 <img src="assets/img/logo/black-logo.png" alt="logo-img" />
               </Link>
               <Link to="/" className="header-logo-2">

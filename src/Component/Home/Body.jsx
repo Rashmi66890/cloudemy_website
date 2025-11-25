@@ -1025,12 +1025,12 @@ const Body = () => {
 
                     }}
                   />
-                  <div className="about-image-2">
+                  {/* <div className="about-image-2">
                     <img src="assets/img/home-1/about/about-1.jpg" alt="img" />
-                  </div>
+                  </div> */} 
                   <div className="about-shape">
                     <img src="assets/img/home-1/about/shape-1.png" alt="img" />
-                  </div>
+                  </div>                       
                   <div className="circle-shape">
                     <img src="assets/img/home-1/about/shape-2.png" alt="img" />
                   </div>

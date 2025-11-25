@@ -38,18 +38,19 @@ const CommonFooter = () => {
                       cutting-edge technology.
                     </p>
                     <div className="social-icon d-flex align-items-center">
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa-brands fa-instagram"></i>
-                      </a>
-                      <a href="#">
+                      <Link to="https://x.com/cloudemyIndia" target="blank">
+                        <i className="fab fa-x"></i>
+                      </Link>
+                      <Link to="https://wa.me/919616253555" target="blank">
+                        <i className="fab fa-whatsapp"></i>
+                      </Link>
+
+                      <Link
+                        to="https://www.linkedin.com/company/cloudemyindia/"
+                        target="blank"
+                      >
                         <i className="fab fa-linkedin-in"></i>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
