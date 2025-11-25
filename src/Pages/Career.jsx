@@ -494,13 +494,13 @@ const Career = () => {
               >
                 <div className="pp-team-card-item">
                   <div className="pp-team-image">
-                    <img src="assets/img/inner-page/team/01.png" alt="img" />
+                    <img src="assets/img/inner-page/team/11.jpg" alt="img" />
                   </div>
                   <div className="pp-team-content">
                     <h3>
-                      <Link to="#">Sohel Tanvir </Link>
+                      <Link to="#">Akash Verma </Link>
                     </h3>
-                    <p>co-Founder</p>
+                    <p>Founder & CEO</p>
                     <div className="social-icon d-flex align-items-center">
                       <Link to="#">
                         <i className="fab fa-facebook-f" />
@@ -529,13 +529,13 @@ const Career = () => {
               >
                 <div className="pp-team-card-item">
                   <div className="pp-team-image">
-                    <img src="assets/img/inner-page/team/02.png" alt="img" />
+                    <img src="assets/img/inner-page/team/22.jpg" alt="img" />
                   </div>
                   <div className="pp-team-content">
                     <h3>
-                      <Link to="#">Tonya Martin </Link>
+                      <Link to="#">Aman Verma </Link>
                     </h3>
-                    <p>co-Founder</p>
+                    <p>CFO</p>
                     <div className="social-icon d-flex align-items-center">
                       <Link to="#">
                         <i className="fab fa-facebook-f" />
@@ -564,13 +564,13 @@ const Career = () => {
               >
                 <div className="pp-team-card-item">
                   <div className="pp-team-image">
-                    <img src="assets/img/inner-page/team/03.png" alt="img" />
+                    <img src="assets/img/inner-page/team/33.jpg" alt="img" />
                   </div>
                   <div className="pp-team-content">
                     <h3>
-                      <Link to="#">Stephan Bullok </Link>
+                      <Link to="#">Abhishek Verma </Link>
                     </h3>
-                    <p>HR manager</p>
+                    <p>Social Media Manager</p>
                     <div className="social-icon d-flex align-items-center">
                       <Link to="#">
                         <i className="fab fa-facebook-f" />
@@ -588,111 +588,7 @@ const Career = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".3s"
-                style={{
-                  visibility: "visible",
-                  animationDelay: "0.3s",
-                  animationName: "fadeInUp",
-                }}
-              >
-                <div className="pp-team-card-item">
-                  <div className="pp-team-image">
-                    <img src="assets/img/inner-page/team/04.png" alt="img" />
-                  </div>
-                  <div className="pp-team-content">
-                    <h3>
-                      <Link to="#">Dianne Russell </Link>
-                    </h3>
-                    <p>co-Founder</p>
-                    <div className="social-icon d-flex align-items-center">
-                      <Link to="#">
-                        <i className="fab fa-facebook-f" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fab fa-twitter" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fa-brands fa-instagram" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fab fa-linkedin-in" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".5s"
-                style={{
-                  visibility: "visible",
-                  animationDelay: "0.5s",
-                  animationName: "fadeInUp",
-                }}
-              >
-                <div className="pp-team-card-item">
-                  <div className="pp-team-image">
-                    <img src="assets/img/inner-page/team/05.png" alt="img" />
-                  </div>
-                  <div className="pp-team-content">
-                    <h3>
-                      <Link to="#">Annette Black </Link>
-                    </h3>
-                    <p>co-Founder</p>
-                    <div className="social-icon d-flex align-items-center">
-                      <Link to="#">
-                        <i className="fab fa-facebook-f" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fab fa-twitter" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fa-brands fa-instagram" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fab fa-linkedin-in" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".7s"
-                style={{
-                  visibility: "visible",
-                  animationDelay: "0.7s",
-                  animationName: "fadeInUp",
-                }}
-              >
-                <div className="pp-team-card-item">
-                  <div className="pp-team-image">
-                    <img src="assets/img/inner-page/team/06.png" alt="img" />
-                  </div>
-                  <div className="pp-team-content">
-                    <h3>
-                      <Link to="#">Jacob Jones </Link>
-                    </h3>
-                    <p>HR manager</p>
-                    <div className="social-icon d-flex align-items-center">
-                      <Link to="#">
-                        <i className="fab fa-facebook-f" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fab fa-twitter" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fa-brands fa-instagram" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fab fa-linkedin-in" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          
             </div>
           </div>
         </section>
