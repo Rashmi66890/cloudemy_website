@@ -3,10 +3,8 @@ import { Link } from "react-router-dom";
 const AboveHeader = () => {
   return (
     <>
-      {/* <button id="pp-back-top" className="pp-back-to-top show">
-        <i className="fa-solid fa-arrow-up"></i>
-      </button> */}
-      <button id="pp-back-top" class="pp-back-to-top show"> <i class="fa-solid fa-arrow-up"></i>
+      <button id="pp-back-top" class="pp-back-to-top show">
+        <i class="fa-solid fa-arrow-up"></i>
       </button>
 
       <div className="fix-area">

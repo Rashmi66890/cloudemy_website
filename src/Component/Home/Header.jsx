@@ -11,8 +11,8 @@ const Header = () => {
                 <img src="assets/img/logo/black-logo.png" alt="logo-img" />
               </Link>
               <Link to="/" className="header-logo-2">
-                <img src="assets/img/logo/black-logo.png" alt="logo-img" /> 
-              </Link> 
+                <img src="assets/img/logo/black-logo.png" alt="logo-img" />
+              </Link>
             </div>
 
             <div className="mean__menu-wrapper">
@@ -36,14 +36,13 @@ const Header = () => {
                     <li>
                       <Link to="/services">Services</Link>
                     </li>
-
                     {/* <li>
-                      <Link to="/portfolio">Portfolio </Link>
-                    </li>
+                      <Link to="/portfolio">Portfolio</Link>
+                    </li> */}
 
                     <li>
-                      <Link to="/blog">Blog</Link>
-                    </li> */}
+                      <Link to="/careers">Careers</Link>
+                    </li>
 
                     <li>
                       <Link to="/contact">Contact Us</Link>
@@ -61,12 +60,12 @@ const Header = () => {
               <div className="header__hamburger d-xl-none my-auto">
                 <div className="sidebar__toggle">
                   <div className="header-bar">
-                    <span></span>   
+                    <span></span>
                     <span></span>
                   </div>
                 </div>
               </div>
-            </div>    
+            </div>
           </div>
         </div>
       </div>

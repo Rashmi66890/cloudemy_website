@@ -264,7 +264,7 @@ const Services = () => {
               <div className="col-lg-6">
                 <div className="pp-feature-image">
                   <img
-                    src="assets/img/home-2/feature/01.jpg"
+                    src="assets/img/home-2/feature/111.png"
                     alt="img"
                     className="wow img-custom-anim-right"
                     data-wow-duration="1.3s"
@@ -277,7 +277,7 @@ const Services = () => {
                     }}
                   />
                   <div className="pp-feature-image-2 float-bob-y">
-                    <img src="assets/img/home-2/feature/02.jpg" alt="img" />
+                    <img src="assets/img/home-2/feature/222.jpg" alt="img" />
                   </div>
                 </div>
               </div>

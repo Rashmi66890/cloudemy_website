@@ -56,38 +56,6 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div
-                className="col-xl-2 col-lg-4 col-md-6 col-sm-6 ps-lg-5 wow fadeInUp"
-                data-wow-delay=".4s"
-                style={{
-                  visibility: "visible",
-                  animationDelay: "0.2s",
-                  animationName: "fadeInUp",
-                }}
-              >
-                <div className="pp-footer-widget-items">
-                  <div className="pp-widget-head">
-                    <h3>Quick Links</h3>
-                  </div>
-                  <ul className="pp-list-area">
-                    <li>
-                      <Link to="/about">About Us</Link>
-                    </li>
-                    <li>
-                      <Link to="/services">Services</Link>
-                    </li>
-                    {/* <li>
-                      <Link to="/portfolio">Portfolio</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog">Blog</Link>
-                    </li> */}
-                    <li>
-                      <Link to="/contact">Contact Us</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
 
               <div
                 className="col-xl-2 col-lg-4 col-md-6 col-sm-6 ps-lg-5 wow fadeInUp"
@@ -104,13 +72,16 @@ const Footer = () => {
                   </div>
                   <ul className="pp-list-area">
                     <li>
-                      <Link to="/about">Overview</Link>
+                      <Link to="/about">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/contact">Contact Us</Link>
+                      <Link to="/services">Services</Link>
                     </li>
                     <li>
                       <Link href="/careers">Careers</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
@@ -139,7 +110,6 @@ const Footer = () => {
                           info@cloudemy.in
                         </a>
                         <br />
-
                       </h6>
                     </div>
                   </div>
@@ -151,7 +121,6 @@ const Footer = () => {
                       <h6>
                         <a href="tel:+919616253555">+91 9616253555</a>
                         <br />
-
                       </h6>
                     </div>
                   </div>
@@ -161,9 +130,11 @@ const Footer = () => {
                     </div>
                     <div className="pp-content">
                       <h6>
-                        <a >Sector A, Aliganj, Lucknow, Uttar Pradesh, India, 226021</a>
+                        <a>
+                          Sector A, Aliganj, Lucknow, Uttar Pradesh, India,
+                          226021
+                        </a>
                         <br />
-
                       </h6>
                     </div>
                   </div>
@@ -197,10 +168,7 @@ const Footer = () => {
                 }}
               >
                 <li>
-                  <a href="#">Terms &amp; Conditions</a>
-                </li>
-                <li>
-                  <a href="#">Privacy Policy</a>
+                  <Link to="/privacy">Privacy Policy</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact Us</Link>

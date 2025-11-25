@@ -36,15 +36,14 @@ const HeaderHome = () => {
                     <li>
                       <Link to="/services">Services</Link>
                     </li>
-{/* 
-                    <li>
-                      <Link to="/portfolio">Portfolio</Link>
-                    </li>
 
-                    <li>
-                      <Link to="/blog">Blog</Link>
+                    {/* <li>
+                      <Link to="/portfolio">Portfolio</Link>
                     </li> */}
 
+                    <li>
+                      <Link to="/careers">Careers</Link>
+                    </li>
                     <li>
                       <Link to="/contact">Contact Us</Link>
                     </li>

@@ -8,46 +8,6 @@ const CommonFooter = () => {
       >
         <div className="container">
           <div className="pp-footer-widget-wrapper pp-style-2">
-            {/* <div className="pp-footer-newsletter">
-              <div
-                className="pp-newsletter-content wow fadeInUp"
-                data-wow-delay=".3s"
-                style={{
-                  visibility: "visible",
-                  animationDelay: "0.3s",
-                  animationName: "fadeInUp",
-                }}
-              >
-                <h2>Take Your Business Higher — Today!</h2>
-                <p>
-                  Grow your business smarter with instant services, secure
-                  payments, and reliable support—start expanding your success
-                  today with confidence.
-                </p>
-              </div>
-              <form
-                action="#"
-                className="wow fadeInUp"
-                data-wow-delay=".5s"
-                style={{
-                  visibility: "visible",
-                  animationDelay: "0.5s",
-                  animationName: "fadeInUp",
-                }}
-              >
-                <div className="form-clt">
-                  <input
-                    type="text"
-                    name="email"
-                    id="email"
-                    placeholder="Enter your mail"
-                  />
-                  <button type="submit" className="pp-theme-btn">
-                    <i className="fa-solid fa-paper-plane"></i> Request a Demo
-                  </button>
-                </div>
-              </form>
-            </div> */}
             <div className="row justify-content-between">
               <div
                 className="col-xl-5 col-lg-4 col-md-6 wow fadeInUp"
@@ -94,38 +54,7 @@ const CommonFooter = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-xl-2 col-lg-4 col-md-6 col-sm-6 ps-lg-5 wow fadeInUp"
-                data-wow-delay=".4s"
-                style={{
-                  visibility: "visible",
-                  animationDelay: "0.4s",
-                  animationName: "fadeInUp",
-                }}
-              >
-                <div className="pp-footer-widget-items">
-                  <div className="pp-widget-head">
-                    <h3>Quick Links</h3>
-                  </div>
-                  <ul className="pp-list-area">
-                    <li>
-                      <Link to="/about">About Us</Link>
-                    </li>
-                    <li>
-                      <Link to="/services">Service</Link>
-                    </li>
-                    {/* <li>
-                      <Link to="/portfolio">Portfolio</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog">Blog</Link>
-                    </li> */}
-                    <li>
-                      <Link to="/contact">Contact Us</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+
               <div
                 className="col-xl-2 col-lg-4 col-md-6 col-sm-6 ps-lg-5 wow fadeInUp"
                 data-wow-delay=".6s"
@@ -141,14 +70,17 @@ const CommonFooter = () => {
                   </div>
                   <ul className="pp-list-area">
                     <li>
-                      <Link href="/about">Overview</Link>
+                      <Link to="/about">About Us</Link>
                     </li>
 
                     <li>
                       <Link to="/contact">Contact Us</Link>
                     </li>
                     <li>
-                      <Link to="#">Careers</Link>
+                      <Link to="/services">Services</Link>
+                    </li>
+                    <li>
+                      <Link to="/careers">Careers</Link>
                     </li>
                   </ul>
                 </div>
@@ -176,7 +108,6 @@ const CommonFooter = () => {
                           info@cloudemy.in
                         </a>
                         <br />
-
                       </h6>
                     </div>
                   </div>
@@ -188,7 +119,6 @@ const CommonFooter = () => {
                       <h6>
                         <a href="tel:+919616253555">+91 9616253555</a>
                         <br />
-
                       </h6>
                     </div>
                   </div>
@@ -198,13 +128,14 @@ const CommonFooter = () => {
                     </div>
                     <div className="pp-content">
                       <h6>
-                        <a >Sector A, Aliganj, Lucknow, Uttar Pradesh, India, 226021</a>
+                        <a>
+                          Sector A, Aliganj, Lucknow, Uttar Pradesh, India,
+                          226021
+                        </a>
                         <br />
-
                       </h6>
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
@@ -234,10 +165,7 @@ const CommonFooter = () => {
                 }}
               >
                 <li>
-                  <Link to="#">Terms &amp; Conditions</Link>
-                </li>
-                <li>
-                  <Link to="#">Privacy Policy</Link>
+                  <Link to="/privacy">Privacy Policy</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact Us</Link>

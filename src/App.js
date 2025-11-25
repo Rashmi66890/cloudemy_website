@@ -9,6 +9,8 @@ import ServiceDetail from "./Pages/ServiceDetail.jsx";
 import BlogDetail from "./Pages/BlogDetail.jsx";
 import ScrollToTop from "./Component/ScrollToTop.jsx";
 import ProjectDetails from "./Pages/ProjectDetails.jsx";
+import Career from "./Pages/Career.jsx";
+import Privacy from "./Pages/Privacy.jsx";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/service-details/:service" element={<ServiceDetail />} />
         <Route path="/blog-details" element={<BlogDetail />} />
         <Route path="/project-details" element={<ProjectDetails />} />
+        <Route path="/careers" element={<Career />} />
+        <Route path="/privacy" element={<Privacy />} />
       </Routes>
     </>
   );
