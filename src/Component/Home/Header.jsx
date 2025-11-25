@@ -7,16 +7,16 @@ const Header = () => {
         <div className="mega-menu-wrapper">
           <div className="header-main">
             <div className="logo" >
-              <Link to="#" className="header-logo">
+              <Link to="/" className="header-logo">
                 <img src="assets/img/logo/black-logo.png" alt="logo-img" />
               </Link>
               <Link to="/" className="header-logo-2">
                 <img src="assets/img/logo/black-logo.png" alt="logo-img" />
               </Link>
-            </div>
+            </div> 
 
-            <div className="mean__menu-wrapper">
-              <div className="main-menu">
+            <div className="mean__menu-wrapper"> 
+              <div className="main-menu">    
                 <nav id="mobile-menu" style={{ display: "block" }}>
                   <ul>
                     <li className="has-dropdown active menu-thumb">

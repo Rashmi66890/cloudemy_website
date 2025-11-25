@@ -2,6 +2,7 @@ import React from "react";
 import AboveHeader from "../Component/Home/AboveHeader";
 import Header from "../Component/Home/Header";
 import CommonFooter from "../Component/PagesFooter/CommonFooter";
+import { Link } from "react-router-dom";
 
 const Career = () => {
   const scrollToSection = (id) => {
@@ -37,7 +38,7 @@ const Career = () => {
           </div>
         </div>
       </div>
-    
+
       <div className="row customrow">
         <div className="col-xl-3 col-lg-6 col-md-6">
           <div
@@ -84,10 +85,10 @@ const Career = () => {
         </div>
       </div>
 
-      <section className="pp-project-details-section section-padding fix" >
-        <div className="container"id="why-join-us">
+      <section className="pp-project-details-section section-padding fix">
+        <div className="container" id="why-join-us">
           <div className="pp-project-details-wrapper">
-            <div className="row g-4" >
+            <div className="row g-4">
               <div className="pp-project-details-content">
                 <h3>Ready To Speak Brilliance</h3>
                 <p>
@@ -118,15 +119,16 @@ const Career = () => {
                     </p>
                   </div>
                   <h3>
-                    <a>– CLOUDEMY</a>
+                    <a>– CLOUDEMY </a>
                   </h3>
                 </div>
               </div>
               <div className="col-xl-12">
                 <div className="pp-project-details-image">
                   <img
-                    src="assets/img/inner-page/project/details-1.jpg"
+                    src="assets/img/inner-page/project/details-12.jpg"
                     alt="img"
+                    style={{ height: "500px" }}
                   />
                 </div>
               </div>
@@ -134,10 +136,9 @@ const Career = () => {
           </div>
         </div>
 
-
         <div className="container " id="our-office">
           <div className="pp-project-details-wrapper">
-            <div className="row g-4" >
+            <div className="row g-4">
               <div className="pp-project-details-content">
                 <h3> Our Office </h3>
                 <p>
@@ -178,9 +179,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/01.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -197,9 +198,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/02.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -216,9 +217,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/03.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -235,9 +236,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/04.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -254,9 +255,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/05.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -273,9 +274,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/01.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -292,9 +293,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/02.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -311,9 +312,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/03.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -330,9 +331,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/04.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -349,9 +350,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/05.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -368,9 +369,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/01.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -387,9 +388,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/02.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -406,9 +407,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/03.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -425,9 +426,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/04.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -444,9 +445,9 @@ const Career = () => {
                       src="assets/img/inner-page/instagram/05.jpg"
                       alt="insta-img"
                     />
-                    <a href="index.html" className="icon">
+                    <Link to="#" className="icon">
                       <i className="fa-brands fa-instagram" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -458,8 +459,6 @@ const Career = () => {
             />
           </div>
         </div>
-
-      
 
         <div className="container cusabcde">
           <div className="pp-project-details-wrapper">
@@ -499,22 +498,22 @@ const Career = () => {
                   </div>
                   <div className="pp-team-content">
                     <h3>
-                      <a href="team-details.html">Sohel Tanvir</a>
+                      <Link to="#">Sohel Tanvir </Link>
                     </h3>
                     <p>co-Founder</p>
                     <div className="social-icon d-flex align-items-center">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fa-brands fa-instagram" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin-in" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -534,22 +533,22 @@ const Career = () => {
                   </div>
                   <div className="pp-team-content">
                     <h3>
-                      <a href="team-details.html">Tonya Martin</a>
+                      <Link to="#">Tonya Martin </Link>
                     </h3>
                     <p>co-Founder</p>
                     <div className="social-icon d-flex align-items-center">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fa-brands fa-instagram" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin-in" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -569,22 +568,22 @@ const Career = () => {
                   </div>
                   <div className="pp-team-content">
                     <h3>
-                      <a href="team-details.html">Stephan Bullok</a>
+                      <Link to="#">Stephan Bullok </Link>
                     </h3>
                     <p>HR manager</p>
                     <div className="social-icon d-flex align-items-center">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fa-brands fa-instagram" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin-in" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -604,22 +603,22 @@ const Career = () => {
                   </div>
                   <div className="pp-team-content">
                     <h3>
-                      <a href="team-details.html">Dianne Russell</a>
+                      <Link to="#">Dianne Russell </Link>
                     </h3>
                     <p>co-Founder</p>
                     <div className="social-icon d-flex align-items-center">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fa-brands fa-instagram" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin-in" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -639,22 +638,22 @@ const Career = () => {
                   </div>
                   <div className="pp-team-content">
                     <h3>
-                      <a href="team-details.html">Annette Black</a>
+                      <Link to="#">Annette Black </Link>
                     </h3>
                     <p>co-Founder</p>
                     <div className="social-icon d-flex align-items-center">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fa-brands fa-instagram" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin-in" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -674,22 +673,22 @@ const Career = () => {
                   </div>
                   <div className="pp-team-content">
                     <h3>
-                      <a href="team-details.html">Jacob Jones</a>
+                      <Link to="#">Jacob Jones </Link>
                     </h3>
                     <p>HR manager</p>
                     <div className="social-icon d-flex align-items-center">
-                      <a href="#">
+                      <Link to="#">
                         <i className="fab fa-facebook-f" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-twitter" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fa-brands fa-instagram" />
-                      </a>
-                      <a href="#">
+                      </Link>
+                      <Link to="#">
                         <i className="fab fa-linkedin-in" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

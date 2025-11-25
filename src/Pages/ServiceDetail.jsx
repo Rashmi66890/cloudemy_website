@@ -160,7 +160,7 @@ const ServiceDetail = () => {
                       </p>
                       <div className="pp-thumb">
                         <img
-                          src="assets/img/inner-page/service-details/details-2.jpg"
+                          src="assets/img/inner-page/service-details/05.jpg"
                           alt="img"
                         />
                       </div>
@@ -256,7 +256,7 @@ const ServiceDetail = () => {
                       </p>
                       <div className="pp-thumb">
                         <img
-                          src="assets/img/inner-page/service-details/details-2.jpg"
+                          src="assets/img/inner-page/service-details/06.jpg"
                           alt="img"
                         />
                       </div>
@@ -361,7 +361,7 @@ const ServiceDetail = () => {
                       </p>
                       <div className="pp-thumb">
                         <img
-                          src="assets/img/inner-page/service-details/details-2.jpg"
+                          src="assets/img/inner-page/service-details/01.jpg"
                           alt="img"
                         />
                       </div>
@@ -421,7 +421,7 @@ const ServiceDetail = () => {
                       </p>
                       <div className="pp-thumb">
                         <img
-                          src="assets/img/inner-page/service-details/details-2.jpg"
+                          src="assets/img/inner-page/service-details/02.jpg"
                           alt="img"
                         />
                       </div>
@@ -535,7 +535,7 @@ const ServiceDetail = () => {
                       </p>
                       <div className="pp-thumb">
                         <img
-                          src="assets/img/inner-page/service-details/details-2.jpg"
+                          src="assets/img/inner-page/service-details/04.jpg"
                           alt="img"
                         />
                       </div>
@@ -639,7 +639,7 @@ const ServiceDetail = () => {
                       </p>
                       <div className="pp-thumb">
                         <img
-                          src="assets/img/inner-page/service-details/details-2.jpg"
+                          src="assets/img/inner-page/service-details/03.jpg"
                           alt="img"
                         />
                       </div>
