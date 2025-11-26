@@ -7372,3 +7372,42 @@ span {
   margin-top: 50px;
 }
 
+/* Mobile (up to 480px) */
+@media (max-width: 480px) {
+  .pp-brand-section {
+    padding: 40px 0 !important;
+  }
+
+  .brand-title h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .brand-image img {
+    width: 70px !important;
+    margin: 0 auto;
+  }
+
+  .swiper-slide {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .pp-brand-slider {
+    padding: 0 10px;
+  }
+}
+
+/* Tablets (481px to 768px) */
+@media (max-width: 768px) {
+  .brand-title h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .brand-image img {
+    width: 90px !important;
+  }
+}
+
+
