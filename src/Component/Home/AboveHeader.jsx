@@ -55,14 +55,14 @@ const AboveHeader = () => {
                     </div>
                   </li>
 
-                  <li className="d-flex align-items-center">
+                  {/* <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="fal fa-clock"></i>
                     </div>
-                    {/* <div className="offcanvas__contact-text">
+                    <div className="offcanvas__contact-text">
                       <a>Mon–Fri, 09am–05pm</a>
-                    </div> */}
-                  </li>
+                    </div>
+                  </li> */}
 
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
