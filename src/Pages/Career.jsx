@@ -40,7 +40,7 @@ const Career = () => {
       </div>
 
       <div className="row customrow">
-        <div className="col-xl-3 col-lg-6 col-md-6">
+        <div className="col-xl-3 col-lg-6 col-md-6 cus-mobile">
           <div
             className="pp-details-box"
             onClick={() => scrollToSection("why-join-us")}
@@ -51,10 +51,10 @@ const Career = () => {
           </div>
         </div>
 
-        <div className="col-xl-3 col-lg-6 col-md-6">
+        <div className="col-xl-3 col-lg-6 col-md-6 cus-mobile">
           <div
             className="pp-details-box"
-            onClick={() => scrollToSection("current-opening")}
+            onClick={() => scrollToSection("current-opening ")}
           >
             <div className="pp-content">
               <h5 style={{ color: "white" }}>Current Opening</h5>
@@ -62,7 +62,7 @@ const Career = () => {
           </div>
         </div>
 
-        <div className="col-xl-3 col-lg-6 col-md-6">
+        <div className="col-xl-3 col-lg-6 col-md-6 cus-mobile">
           <div
             className="pp-details-box"
             onClick={() => scrollToSection("our-office")}
@@ -73,7 +73,7 @@ const Career = () => {
           </div>
         </div>
 
-        <div className="col-xl-3 col-lg-6 col-md-6">
+        <div className="col-xl-3 col-lg-6 col-md-6 cus-mobile">
           <div
             className="pp-details-box"
             onClick={() => scrollToSection("meet-people")}
@@ -502,12 +502,7 @@ const Career = () => {
                     </h3>
                     <p>Founder & CEO</p>
                     <div className="social-icon d-flex align-items-center">
-                      {/* <Link to="#">
-                        <i className="fab fa-facebook-f" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fab fa-twitter" />
-                      </Link> */}
+                     
                       <Link to="#">
                         <i className="fa-brands fa-instagram" />
                       </Link>
@@ -537,12 +532,7 @@ const Career = () => {
                     </h3>
                     <p>CFO</p>
                     <div className="social-icon d-flex align-items-center">
-                      {/* <Link to="#">
-                        <i className="fab fa-facebook-f" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fab fa-twitter" />
-                      </Link> */}
+                     
                       <Link to="#">
                         <i className="fa-brands fa-instagram" />
                       </Link>
@@ -570,14 +560,8 @@ const Career = () => {
                     <h3>
                       <Link to="#">Abhishek Verma </Link>
                     </h3>
-                    <p>Social Media Manager</p>
+                    <p>COO</p>
                     <div className="social-icon d-flex align-items-center">
-                      {/* <Link to="#">
-                        <i className="fab fa-facebook-f" />
-                      </Link>
-                      <Link to="#">
-                        <i className="fab fa-twitter" />
-                      </Link> */}
                       <Link to="#">
                         <i className="fa-brands fa-instagram" />
                       </Link>
@@ -588,7 +572,6 @@ const Career = () => {
                   </div>
                 </div>
               </div>
-          
             </div>
           </div>
         </section>
