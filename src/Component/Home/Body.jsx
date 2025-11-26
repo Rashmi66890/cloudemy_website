@@ -1083,23 +1083,23 @@ const Body = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    <div className="count-text">
+                    <div className="count-text" style={{marginLeft:"50px"}}>
                       <h2>
-                        <span className="pp-count">200</span>k+
+                        <span className="pp-count">56</span>+
                       </h2>
-                      <p>Businesses worldwide</p>
+                      <p>Projects Completed</p>
                     </div>
                     <div className="count-text">
                       <h2>
-                        <span className="pp-count">205</span>x
+                        <span className="pp-count">29</span>+
                       </h2>
-                      <p>More ROI</p>
+                      <p>Happy Clients</p>
                     </div>
                     <div className="count-text">
                       <h2>
-                        <span className="pp-count">2.5</span>k
+                        <span className="pp-count">4.7</span>*
                       </h2>
-                      <p>Generated on average</p>
+                      <p>Average Rating</p>
                     </div>
                   </div>
                 </div>

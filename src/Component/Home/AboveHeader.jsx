@@ -38,7 +38,9 @@ const AboveHeader = () => {
                       <i className="fal fa-map-marker-alt"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="#">Main Street, Melbourne, Australia</a>
+                      <a>
+                        Sector A, Aliganj, Lucknow, Uttar Pradesh, India, 226021
+                      </a>
                     </div>
                   </li>
 
@@ -47,7 +49,9 @@ const AboveHeader = () => {
                       <i className="fal fa-envelope"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <Link to="mailto:info@info@cloudemy.in">
+                        info@cloudemy.in
+                      </Link>
                     </div>
                   </li>
 
@@ -55,9 +59,9 @@ const AboveHeader = () => {
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="fal fa-clock"></i>
                     </div>
-                    <div className="offcanvas__contact-text">
-                      <a href="#">Mon–Fri, 09am–05pm</a>
-                    </div>
+                    {/* <div className="offcanvas__contact-text">
+                      <a>Mon–Fri, 09am–05pm</a>
+                    </div> */}
                   </li>
 
                   <li className="d-flex align-items-center">
@@ -65,24 +69,25 @@ const AboveHeader = () => {
                       <i className="far fa-phone"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+11002345909</a>
+                      <Link to="tel:+919616253555">+91 9616253555</Link>
                     </div>
                   </li>
                 </ul>
 
                 <div className="social-icon d-flex align-items-center">
-                  <a href="#">
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-youtube"></i>
-                  </a>
-                  <a href="#">
+                  <Link to="https://x.com/cloudemyIndia" target="blank">
+                    <i className="fab fa-x"></i>
+                  </Link>
+                  <Link to="https://wa.me/919616253555" target="blank">
+                    <i className="fab fa-whatsapp"></i>
+                  </Link>
+
+                  <Link
+                    to="https://www.linkedin.com/company/cloudemyindia/"
+                    target="blank"
+                  >
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
