@@ -14,6 +14,23 @@ const Body = () => {
     "/assets/img/home-1/brand/ios.png",
     "/assets/img/home-1/brand/html.png",
   ];
+  // const settings = {
+  //   infinite: true,
+  //   autoplay: true,
+  //   autoplaySpeed: 1500,
+  //   slidesToShow: 5,
+  //   slidesToScroll: 1,
+  //   arrows: false,
+  //   pauseOnHover: false,
+  //   responsive: [
+  //     { breakpoint: 1200, settings: { slidesToShow: 5 } },
+  //     { breakpoint: 992, settings: { slidesToShow: 4 } },
+  //     { breakpoint: 768, settings: { slidesToShow: 3 } },
+  //     { breakpoint: 576, settings: { slidesToShow: 2 } },
+  //     { breakpoint: 480, settings: { slidesToShow: 3 } },
+  //     { breakpoint: 0, settings: { slidesToShow: 1 } },
+  //   ],
+  // };
   const settings = {
     infinite: true,
     autoplay: true,
@@ -23,11 +40,12 @@ const Body = () => {
     arrows: false,
     pauseOnHover: false,
     responsive: [
-      { breakpoint: 1200, settings: { slidesToShow: 5 } },
-      { breakpoint: 992, settings: { slidesToShow: 4 } },
-      { breakpoint: 768, settings: { slidesToShow: 3 } },
-      { breakpoint: 576, settings: { slidesToShow: 2 } },
       { breakpoint: 0, settings: { slidesToShow: 1 } },
+      { breakpoint: 480, settings: { slidesToShow: 3 } },
+      { breakpoint: 576, settings: { slidesToShow: 2 } },
+      { breakpoint: 768, settings: { slidesToShow: 3 } },
+      { breakpoint: 992, settings: { slidesToShow: 4 } },
+      { breakpoint: 1200, settings: { slidesToShow: 5 } },
     ],
   };
 
@@ -39,7 +57,7 @@ const Body = () => {
         </div>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-xl-10">
+            <div className="col-xl-10 ">
               <div className="pp-hero-content">
                 <h1
                   className="wow img-custom-anim-left"
@@ -103,7 +121,6 @@ const Body = () => {
           </div>
         </div>
       </section>
-
 
       <div className="pp-brand-section section-padding pb-0 fix">
         <div className="container custom-container-3">
@@ -1022,15 +1039,14 @@ const Body = () => {
                       animationDuration: "1.3s",
                       animationDelay: "0.3s",
                       animationName: "img-anim-left",
-
                     }}
                   />
                   {/* <div className="about-image-2">
                     <img src="assets/img/home-1/about/about-1.jpg" alt="img" />
-                  </div> */} 
+                  </div> */}
                   <div className="about-shape">
                     <img src="assets/img/home-1/about/shape-1.png" alt="img" />
-                  </div>                       
+                  </div>
                   <div className="circle-shape">
                     <img src="assets/img/home-1/about/shape-2.png" alt="img" />
                   </div>
@@ -1083,7 +1099,7 @@ const Body = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    <div className="count-text cust-num" >
+                    <div className="count-text cust-num">
                       <h2>
                         <span className="pp-count">56</span>+
                       </h2>
