@@ -109,7 +109,7 @@ const Footer = () => {
                     </div>
                     <div className="pp-content">
                       <h6>
-                        <a href="mailto:contact.tech@gmail.com">
+                        <a href="mailto:info@cloudemy.in">
                           info@cloudemy.in
                         </a>
                         <br />
