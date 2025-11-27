@@ -69,7 +69,7 @@ const AboveHeader = () => {
                       <i className="far fa-phone"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <Link to="tel:+919616253555">+91 9616253555</Link>
+                      <Link to="tel:+917376304026">+91 7376304026</Link>
                     </div>
                   </li>
                 </ul>
@@ -78,7 +78,7 @@ const AboveHeader = () => {
                   <Link to="https://x.com/cloudemyIndia" target="blank">
                     <i className="fab fa-x"></i>
                   </Link>
-                  <Link to="https://wa.me/919616253555" target="blank">
+                  <Link to="https://wa.me/917376304026" target="blank">
                     <i className="fab fa-whatsapp"></i>
                   </Link>
 

@@ -54,8 +54,8 @@ const ContactUs = () => {
                     <div className="pp-content">
                       <h4>Contact Number</h4>
                       <p>
-                        <a href="tel:+919616253555">
-                          +91 9616253555
+                        <a href="tel:+917376304026">
+                          +91 7376304026
                         </a>
                       </p>
                     </div>

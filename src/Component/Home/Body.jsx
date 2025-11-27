@@ -1083,7 +1083,7 @@ const Body = () => {
                       animationName: "fadeInUp",
                     }}
                   >
-                    <div className="count-text" style={{marginLeft:"50px"}}>
+                    <div className="count-text cust-num" >
                       <h2>
                         <span className="pp-count">56</span>+
                       </h2>
@@ -1180,7 +1180,7 @@ const Body = () => {
                       <span>BillNest</span>
                     </div>
                     <div className="icon">
-                      <i className="fa-solid fa-quote-right"></i>
+                      <i className="fa-solid fa-quote-right cust-quote-right"></i>
                     </div>
                   </div>
                 </div>
@@ -1225,7 +1225,7 @@ const Body = () => {
                       <span>BillNest</span>
                     </div>
                     <div className="icon">
-                      <i className="fa-solid fa-quote-right"></i>
+                      <i className="fa-solid fa-quote-right cust-quote-right"></i>
                     </div>
                   </div>
                 </div>
@@ -1266,11 +1266,11 @@ const Body = () => {
                       }}
                     ></div>
                     <div className="content">
-                      <h4>Abhishek Verma</h4>
+                      <h4>Taukir Ansari</h4>
                       <span>Saz-Cars</span>
                     </div>
                     <div className="icon">
-                      <i className="fa-solid fa-quote-right"></i>
+                      <i className="fa-solid fa-quote-right cust-quote-right"></i>
                     </div>
                   </div>
                 </div>
@@ -1315,7 +1315,7 @@ const Body = () => {
                       <span>BillNest</span>
                     </div>
                     <div className="icon">
-                      <i className="fa-solid fa-quote-right"></i>
+                      <i className="fa-solid fa-quote-right cust-quote-right"></i>
                     </div>
                   </div>
                 </div>
@@ -1360,7 +1360,7 @@ const Body = () => {
                       <span>BillNest</span>
                     </div>
                     <div className="icon">
-                      <i className="fa-solid fa-quote-right"></i>
+                      <i className="fa-solid fa-quote-right cust-quote-right"></i>
                     </div>
                   </div>
                 </div>
@@ -1401,11 +1401,11 @@ const Body = () => {
                       }}
                     ></div>
                     <div className="content">
-                      <h4>Abhishek Verma</h4>
+                      <h4> Taukir Ansari</h4>
                       <span>Saz-Cars</span>
                     </div>
                     <div className="icon">
-                      <i className="fa-solid fa-quote-right"></i>
+                      <i className="fa-solid fa-quote-right cust-quote-right"></i>
                     </div>
                   </div>
                 </div>
@@ -1451,7 +1451,7 @@ const Body = () => {
                       <span>BillNest</span>
                     </div>
                     <div className="icon">
-                      <i className="fa-solid fa-quote-right"></i>
+                      <i className="fa-solid fa-quote-right cust-quote-right"></i>
                     </div>
                   </div>
                 </div>
@@ -1496,7 +1496,7 @@ const Body = () => {
                       <span>BillNest</span>
                     </div>
                     <div className="icon">
-                      <i className="fa-solid fa-quote-right"></i>
+                      <i className="fa-solid fa-quote-right cust-quote-right"></i>
                     </div>
                   </div>
                 </div>
@@ -1537,11 +1537,11 @@ const Body = () => {
                       }}
                     ></div>
                     <div className="content">
-                      <h4>Abhishek Verma</h4>
+                      <h4>Taukir Ansari</h4>
                       <span>Saz-Cars</span>
                     </div>
                     <div className="icon">
-                      <i className="fa-solid fa-quote-right"></i>
+                      <i className="fa-solid fa-quote-right cust-quote-right"></i>
                     </div>
                   </div>
                 </div>

@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const HeaderHome = () => {
+  
+
   return (
     <header id="header-sticky" className="header-1 sticky">
       <div className="container-fluid">

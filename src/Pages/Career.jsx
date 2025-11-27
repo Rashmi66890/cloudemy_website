@@ -85,7 +85,7 @@ const Career = () => {
         </div>
       </div>
 
-      <section className="pp-project-details-section section-padding fix">
+      <section className="pp-project-details-section section-padding fix section-cust">
         <div className="container" id="why-join-us">
           <div className="pp-project-details-wrapper">
             <div className="row g-4">
@@ -138,7 +138,7 @@ const Career = () => {
 
         <div className="container " id="our-office">
           <div className="pp-project-details-wrapper">
-            <div className="row g-4">
+            <div className="row g-4 cust-our-office">
               <div className="pp-project-details-content">
                 <h3> Our Office </h3>
                 <p>

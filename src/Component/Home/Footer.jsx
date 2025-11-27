@@ -42,7 +42,7 @@ const Footer = () => {
                       <Link to="https://x.com/cloudemyIndia" target="blank">
                         <i className="fab fa-x"></i>
                       </Link>
-                      <Link to="https://wa.me/919616253555" target="blank">
+                      <Link to="https://wa.me/917376304026" target="blank">
                         <i className="fab fa-whatsapp"></i>
                       </Link>
 
@@ -79,6 +79,9 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link href="/careers">Careers</Link>
+                    </li>
+                      <li>
+                      <Link to="/privacy">Privacy Policy</Link>
                     </li>
                     <li>
                       <Link to="/contact">Contact Us</Link>
@@ -119,7 +122,7 @@ const Footer = () => {
                     </div>
                     <div className="pp-content">
                       <h6>
-                        <a href="tel:+919616253555">+91 9616253555</a>
+                        <a href="tel:+917376304026">+91 7376304026</a>
                         <br />
                       </h6>
                     </div>
