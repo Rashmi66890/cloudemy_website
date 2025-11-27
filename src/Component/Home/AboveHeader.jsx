@@ -49,7 +49,7 @@ const AboveHeader = () => {
                       <i className="fal fa-envelope"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <Link to="mailto:info@info@cloudemy.in">
+                      <Link to="mailto:info@cloudemy.in">
                         info@cloudemy.in
                       </Link>
                     </div>

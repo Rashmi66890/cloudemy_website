@@ -67,7 +67,7 @@ const ContactUs = () => {
                     <div className="pp-content">
                       <h4>Email Us</h4>
                       <p>
-                        <a href="mailto:info@exmple.com">info@cloudemy.in</a>
+                        <a href="mailto:info@cloudemy.in">info@cloudemy.in</a>
                       </p>
                     </div>
                   </div>
